@@ -1,0 +1,462 @@
+{
+  "nhanvien": [
+    {
+      "id": "NV100",
+      "name": "Nguyễn Công Phượng",
+      "salary": 5000000,
+      "bonus": 500000,
+      "allowance": ""
+    },
+    {
+      "id": "NV102",
+      "name": "Phan Văn Tài Em",
+      "salary": 9000000,
+      "bonus": 600000,
+      "allowance": 100000
+    },
+    {
+      "id": "NV103",
+      "name": "Lê Huỳnh Đức",
+      "bonus": 7000000,
+      "salary": 3000000,
+      "allowance": 200000
+    },
+    {
+      "id": "NV200",
+      "name": "Vũ Thế Mạnh",
+      "bonus": 5000000,
+      "salary": 20000000,
+      "allowance": 700000
+    },
+    {
+      "id": "NV300",
+      "name": "Phạm Ánh",
+      "bonus": 1500000,
+      "salary": 15000000,
+      "allowance": 500000
+    },
+    {
+      "id": "NV3001",
+      "name": "Cô Xuân",
+      "bonus": 123123123123,
+      "salary": 123213123,
+      "allowance": 123123123123
+    }
+  ],
+  "results": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/"
+    },
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/2/"
+    },
+    {
+      "name": "venusaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/3/"
+    },
+    {
+      "name": "charmander",
+      "url": "https://pokeapi.co/api/v2/pokemon/4/"
+    },
+    {
+      "name": "charmeleon",
+      "url": "https://pokeapi.co/api/v2/pokemon/5/"
+    },
+    {
+      "name": "charizard",
+      "url": "https://pokeapi.co/api/v2/pokemon/6/"
+    },
+    {
+      "name": "squirtle",
+      "url": "https://pokeapi.co/api/v2/pokemon/7/"
+    },
+    {
+      "name": "wartortle",
+      "url": "https://pokeapi.co/api/v2/pokemon/8/"
+    },
+    {
+      "name": "blastoise",
+      "url": "https://pokeapi.co/api/v2/pokemon/9/"
+    },
+    {
+      "name": "caterpie",
+      "url": "https://pokeapi.co/api/v2/pokemon/10/"
+    },
+    {
+      "name": "metapod",
+      "url": "https://pokeapi.co/api/v2/pokemon/11/"
+    },
+    {
+      "name": "butterfree",
+      "url": "https://pokeapi.co/api/v2/pokemon/12/"
+    },
+    {
+      "name": "weedle",
+      "url": "https://pokeapi.co/api/v2/pokemon/13/"
+    },
+    {
+      "name": "kakuna",
+      "url": "https://pokeapi.co/api/v2/pokemon/14/"
+    },
+    {
+      "name": "beedrill",
+      "url": "https://pokeapi.co/api/v2/pokemon/15/"
+    },
+    {
+      "name": "pidgey",
+      "url": "https://pokeapi.co/api/v2/pokemon/16/"
+    },
+    {
+      "name": "pidgeotto",
+      "url": "https://pokeapi.co/api/v2/pokemon/17/"
+    },
+    {
+      "name": "pidgeot",
+      "url": "https://pokeapi.co/api/v2/pokemon/18/"
+    },
+    {
+      "name": "rattata",
+      "url": "https://pokeapi.co/api/v2/pokemon/19/"
+    },
+    {
+      "name": "raticate",
+      "url": "https://pokeapi.co/api/v2/pokemon/20/"
+    }
+  ],
+  "data": [
+    {
+      "new": true,
+      "name": "Trà Vải Tươi Dầm",
+      "price": 60000,
+      "image": "https://phuclong.com.vn/uploads/dish/d38f5a0deb702b-lytravai_thuytinh11.png"
+    },
+    {
+      "new": true,
+      "name": "Caramen chảy",
+      "price": 49091,
+      "image": "https://phuclong.com.vn/uploads/dish/8e9e15c6b9704d-cafe5mon03.png"
+    },
+    {
+      "new": true,
+      "name": "Cappuchino - Vietnamo",
+      "price": 44182,
+      "image": "https://phuclong.com.vn/uploads/dish/90405a9f256f11-cafe5mon04.png"
+    },
+    {
+      "new": true,
+      "name": "Latte Latte",
+      "price": 44182,
+      "image": "https://phuclong.com.vn/uploads/dish/8a92bb4b37c012-cafe5mon01.png"
+    },
+    {
+      "new": true,
+      "name": "Ngọc Viễn Đông",
+      "price": 44182,
+      "image": "https://phuclong.com.vn/uploads/dish/6e1c837ccd02b3-cafe5mon05.png"
+    },
+    {
+      "new": true,
+      "name": "Phin Bọt Biển",
+      "price": 44182,
+      "image": "https://phuclong.com.vn/uploads/dish/87b1387e4ee409-cafe5mon02.png"
+    },
+    {
+      "new": true,
+      "name": "Phin Sữa Đá - Năng Lượng",
+      "price": 34363,
+      "image": "https://phuclong.com.vn/uploads/dish/8ebb07f0eeccc1-resize_damdadunggu07.png"
+    },
+    {
+      "new": true,
+      "name": "Phin Đen Đá - Đậm Đà",
+      "price": 34363,
+      "image": "https://phuclong.com.vn/uploads/dish/4521f4c77fc38a-cf67efb06d5aa504fc4b.png"
+    },
+    {
+      "new": false,
+      "name": "Sữa Chua Phúc Bồn Tử Đác Cam",
+      "price": 68727,
+      "image": "https://phuclong.com.vn/uploads/dish/4136b3715bff3e-sachuaphcbntccamphclong.png"
+    },
+    {
+      "new": false,
+      "name": "Sữa Chua Xoài Đác Thơm",
+      "price": 68727,
+      "image": "https://phuclong.com.vn/uploads/dish/65a7d028c2229d-sachuaxoicthmphclong.png"
+    },
+    {
+      "new": false,
+      "name": "Trà Lài Đác Thơm",
+      "price": 49091,
+      "image": "https://phuclong.com.vn/uploads/dish/b8f1dd4d4f583c-dacthom.png"
+    },
+    {
+      "new": false,
+      "name": "Hồng Trà Đác Cam",
+      "price": 68727,
+      "image": "https://phuclong.com.vn/uploads/dish/dae727e03e8092-daccam.png"
+    },
+    {
+      "new": false,
+      "name": "Trà Nhãn - Sen",
+      "price": 49091,
+      "image": "https://phuclong.com.vn/uploads/dish/7c8006f72742d8-trnhnphclong.png"
+    },
+    {
+      "new": false,
+      "name": "Trà Nhãn - Lài",
+      "price": 49091,
+      "image": "https://phuclong.com.vn/uploads/dish/005aaeed660473-trnhnphclong.png"
+    },
+    {
+      "new": false,
+      "name": "Trà Vải - Lài",
+      "price": 49091,
+      "image": "https://phuclong.com.vn/uploads/dish/063555c21c4206-trviliphclong.png"
+    },
+    {
+      "new": false,
+      "name": "Trà Thảo Mộc",
+      "price": 49091,
+      "image": "https://phuclong.com.vn/uploads/dish/5a893da4cab487-trthomcphclong.png"
+    },
+    {
+      "new": false,
+      "name": "Trà Vải - Sen",
+      "price": 49091,
+      "image": "https://phuclong.com.vn/uploads/dish/e160951ba017fe-trviliphclong.png"
+    },
+    {
+      "new": false,
+      "name": "Trà Đào Phúc Long",
+      "price": 49091,
+      "image": "https://phuclong.com.vn/uploads/dish/3937476a64a213-trophclong.png"
+    },
+    {
+      "new": false,
+      "name": "Hồng Trà Sữa",
+      "price": 44182,
+      "image": "https://phuclong.com.vn/uploads/dish/3c2d50a2c26783-hngtrsaphclongtrosaphclong.png"
+    },
+    {
+      "new": false,
+      "name": "Trà Sữa Phúc Long",
+      "price": 44182,
+      "image": "https://phuclong.com.vn/uploads/dish/ad7f4b76f4b694-trsaphclongtrlongsaphclong.png"
+    },
+    {
+      "new": false,
+      "name": "Trà Ô Long Dâu",
+      "price": 49091,
+      "image": "https://phuclong.com.vn/uploads/dish/5318362664d05b-trlongdu.png"
+    },
+    {
+      "new": false,
+      "name": "Trà Ô Long Sữa",
+      "price": 44182,
+      "image": "https://phuclong.com.vn/uploads/dish/6242c5934eefec-trsaphclongtrlongsaphclong.png"
+    },
+    {
+      "new": true,
+      "name": "Trà Ô Long Mãng Cầu",
+      "price": 54000,
+      "image": "https://phuclong.com.vn/uploads/dish/a66aecd5b760eb-traolongmangcau.png"
+    },
+    {
+      "new": false,
+      "name": "Hồng Trà Chanh",
+      "price": 39273,
+      "image": "https://phuclong.com.vn/uploads/dish/4d247cffb2c4d5-hngtrchanh.png"
+    },
+    {
+      "new": false,
+      "name": "Trà Hoa Hồng",
+      "price": 49091,
+      "image": "https://phuclong.com.vn/uploads/dish/4eef9292db8810-trhoahngphclong.png"
+    },
+    {
+      "new": false,
+      "name": "Latte Trà Xanh",
+      "price": 44182,
+      "image": "https://phuclong.com.vn/uploads/dish/d1cd8bafdefe9d-matchalattephclong.png"
+    },
+    {
+      "new": false,
+      "name": "Trà Đào Sữa",
+      "price": 39273,
+      "image": "https://phuclong.com.vn/uploads/dish/a75db2931ab34c-hngtrsaphclongtrosaphclong.png"
+    },
+    {
+      "new": false,
+      "name": "Trà xanh đá xay",
+      "price": 58909,
+      "image": "https://phuclong.com.vn/uploads/dish/5db8d7830383fe-trxanhxay.png"
+    },
+    {
+      "new": false,
+      "name": "Sô-cô-la xay cùng Hạnh nhân và Espresso",
+      "price": 58909,
+      "image": "https://phuclong.com.vn/uploads/dish/ddca1122a701c3-sclaxaycnghnhnhnvespresso.png"
+    },
+    {
+      "new": false,
+      "name": "Bánh Oreo xay cùng cà phê Cappuccino",
+      "price": 58909,
+      "image": "https://phuclong.com.vn/uploads/dish/72781119ecd681-sclaxaycnghnhnhnvespresso.png"
+    },
+    {
+      "new": false,
+      "name": "Cà phê Cappuccino đá xay",
+      "price": 58909,
+      "image": "https://phuclong.com.vn/uploads/dish/d12b476cb8261d-cphcappuccinoxay.png"
+    },
+    {
+      "new": false,
+      "name": "Sô-cô-la Cà phê đá xay",
+      "price": 58909,
+      "image": "https://phuclong.com.vn/uploads/dish/c1043b2fa58b01-sclacphxay.png"
+    },
+    {
+      "new": false,
+      "name": "Trà Đào đá xay",
+      "price": 63818,
+      "image": "https://phuclong.com.vn/uploads/dish/84c7b821bde822-troxay.png"
+    },
+    {
+      "new": false,
+      "name": "Cà phê Caramel đá xay",
+      "price": 58909,
+      "image": "https://phuclong.com.vn/uploads/dish/729626b6440e43-cphcaramelxay.png"
+    },
+    {
+      "new": false,
+      "name": "Táo và Dâu ép",
+      "price": 49091,
+      "image": "https://phuclong.com.vn/uploads/dish/82d9495c75a9f0-tovdup.jpg"
+    },
+    {
+      "new": false,
+      "name": "Thơm và Dâu ép",
+      "price": 49091,
+      "image": "https://phuclong.com.vn/uploads/dish/16f40311f8a57e-davdupphclong.png"
+    },
+    {
+      "new": false,
+      "name": "Táo ép",
+      "price": 44182,
+      "image": "https://phuclong.com.vn/uploads/dish/1c28e98e3cf766-topphclong.png"
+    },
+    {
+      "new": false,
+      "name": "Dâu ép",
+      "price": 54000,
+      "image": "https://phuclong.com.vn/uploads/dish/6b1a28971bec00-dup.png"
+    },
+    {
+      "new": false,
+      "name": "Cam ép",
+      "price": 44182,
+      "image": "https://phuclong.com.vn/uploads/dish/c60abb561e3817-camp.png"
+    },
+    {
+      "new": false,
+      "name": "Dứa ép",
+      "price": 44182,
+      "image": "https://phuclong.com.vn/uploads/dish/6295905dc9447e-dapphclong.png"
+    },
+    {
+      "new": false,
+      "name": "Sinh tố Chanh",
+      "price": 49091,
+      "image": "https://phuclong.com.vn/uploads/dish/64bd44180be24c-sinhtchanh.png"
+    },
+    {
+      "new": false,
+      "name": "Vitamin C (Xoài, Cam, Chanh dây)",
+      "price": 54000,
+      "image": "https://phuclong.com.vn/uploads/dish/704d601e52b386-vitamincxoicamchanhdy.png"
+    },
+    {
+      "new": false,
+      "name": "Sinh tố Dâu",
+      "price": 54000,
+      "image": "https://phuclong.com.vn/uploads/dish/4a625d6564e694-sinhtdu.png"
+    },
+    {
+      "new": false,
+      "name": "Sinh tố Xoài",
+      "price": 54000,
+      "image": "https://phuclong.com.vn/uploads/dish/25a95ceca023f9-sinhtxoi.png"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "gender": "male",
+      "name": {
+        "first": "Nguyễn Văn",
+        "last": "A"
+      },
+      "dob": "20-01-1995",
+      "point": 8.5,
+      "image": "https://ict-imgs.vgcloud.vn/2020/09/01/19/huong-dan-tao-facebook-avatar.jpg"
+    },
+    {
+      "id": 2,
+      "gender": "female",
+      "name": {
+        "first": "Phạm Thị",
+        "last": "Nở"
+      },
+      "dob": "11-12-1985",
+      "point": 5.5,
+      "image": "https://img5.thuthuatphanmem.vn/uploads/2021/12/10/cach-tao-anh-dai-dien-hoat-hinh-tren-facebook_031902036.png"
+    },
+    {
+      "id": 3,
+      "gender": "male",
+      "name": {
+        "first": "Trần Ngọc",
+        "last": "Quang"
+      },
+      "dob": "31-12-1980",
+      "point": 7,
+      "image": "https://ict-imgs.vgcloud.vn/2020/09/01/19/huong-dan-tao-facebook-avatar.jpg"
+    },
+    {
+      "id": 4,
+      "gender": "male",
+      "name": {
+        "first": "Vũ Thế",
+        "last": "Mạnh"
+      },
+      "dob": "18-08-1995",
+      "point": 8.5,
+      "image": "https://ict-imgs.vgcloud.vn/2020/09/01/19/huong-dan-tao-facebook-avatar.jpg"
+    },
+    {
+      "id": 5,
+      "gender": "female",
+      "name": {
+        "first": "Nguyễn Thị",
+        "last": "Na"
+      },
+      "dob": "01-01-1995",
+      "point": 7.5,
+      "image": "https://img5.thuthuatphanmem.vn/uploads/2021/12/10/cach-tao-anh-dai-dien-hoat-hinh-tren-facebook_031902036.png"
+    },
+    {
+      "id": 6,
+      "gender": "male",
+      "name": {
+        "first": "Nguyễn Văn",
+        "last": "Tèo"
+      },
+      "dob": "02-02-1997",
+      "point": 9.5,
+      "image": "https://ict-imgs.vgcloud.vn/2020/09/01/19/huong-dan-tao-facebook-avatar.jpg"
+    }
+  ]
+}

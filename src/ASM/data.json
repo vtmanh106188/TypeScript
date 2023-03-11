@@ -1,0 +1,30 @@
+{
+  "nameFruit": [
+    {
+      "id": 1,
+      "name": "Rau-Củ-Quả"
+    },
+    {
+      "id": 2,
+      "name": "Trái Cây"
+    },
+    {
+      "id": 3,
+      "name": "Thức Uống"
+    },
+    {
+      "id": 4,
+      "name": "Sữa và Chế Phẩm từ Sữa"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "nameProduct": "Sữa chua lên men tự nhiên",
+      "price": 77000,
+      "image": "https://bizweb.dktcdn.net/100/112/377/products/sua-chua-an-it-duong-tu-sua-tuoi-organic-vi-4-hop-x-100g.png?v=1592364247927",
+      "fr_id": 4
+    }
+  ]
+  
+}

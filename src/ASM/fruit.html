@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SMILE PHONE</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.png" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/linearicons-v1.0.0/icon-font.min.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/css-hamburgers/hamburgers.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/animsition/css/animsition.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/select2/select2.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/daterangepicker/daterangepicker.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/lightbox2/css/lightbox.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/perfect-scrollbar/perfect-scrollbar.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/revolution/css/layers.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/revolution/css/navigation.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/revolution/css/settings.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!--===============================================================================================-->
+    <style>
+      .block1 img.image_sp {
+        height: 268px;
+      }
+    </style>
+  </head>
+  <body class="animsition">
+    <!-- Header -->
+    <header>
+      <!-- Header desktop -->
+      <div class="container-menu-desktop">
+        <div class="wrap-menu-desktop">
+          <nav class="limiter-menu-desktop">
+            <div class="left-header">
+              <!-- Logo desktop -->
+              <div class="logo">
+                
+              </div>
+            </div>
+
+            <div class="center-header">
+              <!-- Menu desktop -->
+              <div class="menu-desktop">
+                <ul class="main-menu">
+                  <li class="active-menu">
+                    <a href="index.html">Trang Chủ</a>
+                    <!-- <ul class="sub-menu">
+										<li><a href="index.html">Homepage 1</a></li>
+										<li><a href="home-02.html">Homepage 2</a></li>
+										<li><a href="home-03.html">Homepage 3</a></li>
+										<li><a href="home-04.html">Homepage 4</a></li>
+										<li><a href="home-05.html">Homepage 5</a></li>
+										<li><a href="home-06.html">Homepage 6</a></li>
+									</ul> -->
+                  </li>
+
+                  <li>
+                    <a href="#">Sản phẩm</a>
+                    <ul class="sub-menu" id="fruit-menu">
+                      
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="#">Bài viết</a>
+                  </li>
+
+                  <li>
+                    <a href="#">Liên hệ</a>
+                  </li>
+
+                  <li>
+                    <a href="shop-cart.html">Giỏ Hàng</a>
+                  </li>
+
+                  <li>
+                    <a href="account.html">Đăng nhập</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="right-header">
+              <!-- Icon header -->
+              <div
+                class="wrap-icon-header flex-w flex-r-m h-full wrap-menu-click p-t-8"
+              >
+                <div class="h-full flex-m">
+                  <div
+                    class="icon-header-item flex-c-m trans-04 js-show-modal-search"
+                  >
+                    <img src="images/icons/icon-search.png" alt="SEARCH" />
+                  </div>
+                </div>
+
+                <div
+                  class="wrap-cart-header h-full flex-m m-l-10 menu-click"
+                  id="count-item"
+                >
+                  <div
+                    class="icon-header-item flex-c-m trans-04 icon-header-noti"
+                    data-notify="*"
+                  >
+                    <img src="images/icons/icon-cart-2.png" alt="CART" />
+                  </div>
+
+                  <div class="cart-header menu-click-child trans-04">
+                    <div class="bo-b-1 bocl15">
+                      <div
+                        class="size-h-2 js-pscroll m-r--15 p-r-15"
+                        id="show_right"
+                      >
+                        <!-- cart header item -->
+                      </div>
+                    </div>
+
+                    <div class="flex-w flex-sb-m p-b-31">
+                      <span class="txt-m-103 cl3 p-r-20"> Tổng tiền </span>
+
+                      <span class="txt-m-111 cl10" id="total_right"> </span>
+                    </div>
+
+                    <a
+                      href="shop-cart.html"
+                      class="flex-c-m size-a-8 bg10 txt-s-105 cl13 hov-btn2 trans-04"
+                    >
+                      Thanh toán
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      
+
+      <!-- Menu Mobile -->
+      <div class="menu-mobile">
+        <ul class="main-menu-m">
+          <li>
+            <a href="index.html">Trang chủ</a>
+
+            <span class="arrow-main-menu-m">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+          </li>
+
+          <li>
+            <a href="#">Sản phẩm</a>
+            <ul class="sub-menu">
+              <li><a href="#">Điện thoại</a></li>
+              <li><a href="#">Laptop</a></li>
+              <li><a href="#">Tablet</a></li>
+              <li><a href="#">Phụ kiện</a></li>
+              <li><a href="#">Smartwatch</a></li>
+              <li><a href="#">PC/Máy in</a></li>
+            </ul>
+
+            <span class="arrow-main-menu-m">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+          </li>
+
+          <li>
+            <a href="#">Bài viết</a>
+
+            <span class="arrow-main-menu-m">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+          </li>
+
+          <li>
+            <a href="#">Liên hệ</a>
+
+            <span class="arrow-main-menu-m">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+          </li>
+
+          <li>
+            <a href="account.html">Đăng nhập</a>
+
+            <span class="arrow-main-menu-m">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Modal Search -->
+      <div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
+        <button
+          class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search"
+        >
+          <span class="lnr lnr-cross"></span>
+        </button>
+
+        <div class="container-search-header">
+          <form class="wrap-search-header flex-w">
+            <button class="flex-c-m trans-04">
+              <span class="lnr lnr-magnifier"></span>
+            </button>
+            <input
+              class="plh1"
+              type="text"
+              name="search"
+              placeholder="Tìm kiếm..."
+            />
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <!-- Slider -->
+    <section class="sec-slider">
+      <div class="rev_slider_wrapper fullwidthbanner-container">
+        <div
+          id="rev_slider_4"
+          class="rev_slide fullwidthabanner"
+          data-version="5.4.5"
+          style="display: none"
+        >
+          <ul>
+            <!-- Slide 1 -->
+            <li data-transition="fade">
+              <!--  -->
+              <img
+                src="https://img.freepik.com/premium-psd/fresh-healthy-vegetables-grocery-store-promotion-facebook-cover-banner-template_159024-306.jpg?w=2000"
+                alt="IMG-BG"
+                class="rev-slidebg"
+              />
+
+              <!--  -->
+              <div
+                class="tp-caption tp-resizeme layer1"
+                data-frames='[{"delay":500,"speed":1300,"frame":"0","from":"y:150px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['35', '35', '30', '30']"
+                data-lineheight="['42', '42', '42', '42']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['-116', '-116', '-116', '-146']"
+                data-width="['970','960','768','576']"
+                data-height="['auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              ></div>
+
+              <!--  -->
+              <h2
+                class="tp-caption tp-resizeme layer2"
+                data-frames='[{"delay":1300,"speed":1300,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['120', '90', '80', '70']"
+                data-lineheight="['130', '120', '100', '90']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['-18', '-28', '-28', '-48']"
+                data-width="['1100','960','768','576']"
+                data-height="['auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              ></h2>
+
+              <!--  -->
+              <p
+                class="tp-caption tp-resizeme layer3"
+                data-frames='[{"delay":500,"speed":1300,"frame":"0","from":"y:-150px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['18', '18', '18', '18']"
+                data-lineheight="['30', '30', '30', '30']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['107', '80', '80', '77']"
+                data-width="['970','768','768','576']"
+                data-height="['auto', 'auto', 'auto', 'auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 35, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 35, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              ></p>
+
+              <!--  -->
+              <div
+                class="tp-caption tp-resizeme flex-w flex-c-m layer4"
+                data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['218', '180', '180', '190']"
+                data-width="['970','960','768','576']"
+                data-height="['auto']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              >
+              </div>
+            </li>
+
+            <!-- Slide 2 -->
+            <li data-transition="fade">
+              <!--  -->
+              <img
+                src="https://img.freepik.com/premium-vector/healthy-food-menu-promotion-social-media-facebook-cover-banner-template_225928-81.jpg?w=2000"
+                alt="IMG-BG"
+                class="rev-slidebg"
+              />
+
+              <!--  -->
+              <div
+                class="tp-caption tp-resizeme layer1"
+                data-frames='[{"delay":1800,"speed":1300,"frame":"0","from":"x:200px;skX:-85px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['35', '35', '30', '30']"
+                data-lineheight="['42', '42', '42', '42']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['-116', '-116', '-116', '-146']"
+                data-width="['970','960','768','576']"
+                data-height="['auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              ></div>
+
+              <!--  -->
+              <h2
+                class="tp-caption tp-resizeme layer2"
+                data-frames='[{"delay":500,"split":"chars","splitdelay":0.05,"speed":1300,"frame":"0","from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['120', '90', '80', '70']"
+                data-lineheight="['130', '120', '100', '90']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['-18', '-28', '-28', '-48']"
+                data-width="['1100','960','768','576']"
+                data-height="['auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              ></h2>
+
+              <!--  -->
+              <p
+                class="tp-caption tp-resizeme layer3"
+                data-frames='[{"delay":1800,"speed":1300,"frame":"0","from":"x:-200px;skX:85px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['18', '18', '18', '18']"
+                data-lineheight="['30', '30', '30', '30']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['107', '80', '80', '77']"
+                data-width="['970','768','768','576']"
+                data-height="['auto', 'auto', 'auto', 'auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 35, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 35, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              ></p>
+
+              <!--  -->
+              <div
+                class="tp-caption tp-resizeme flex-w flex-c-m layer4"
+                data-frames='[{"delay":3000,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.6;sY:0.6;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['218', '180', '180', '190']"
+                data-width="['970','960','768','576']"
+                data-height="['auto']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              >
+                
+              </div>
+            </li>
+
+            <!-- Slide 3 -->
+            <li data-transition="fade">
+              <!--  -->
+              <img
+                src="https://i.pinimg.com/736x/0f/93/8f/0f938fabbfc842256c11e3982324fbdc.jpg"
+                alt="IMG-BG"
+                class="rev-slidebg"
+              />
+
+              <!--  -->
+              <div
+                class="tp-caption tp-resizeme layer1"
+                data-frames='[{"delay":1800,"speed":1300,"frame":"0","from":"x:200px;skX:-85px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['35', '35', '30', '30']"
+                data-lineheight="['42', '42', '42', '42']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['-116', '-116', '-116', '-146']"
+                data-width="['970','960','768','576']"
+                data-height="['auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              ></div>
+
+              <!--  -->
+              <h2
+                class="tp-caption tp-resizeme layer2"
+                data-frames='[{"delay":500,"split":"chars","splitdelay":0.05,"speed":1300,"frame":"0","from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['120', '90', '80', '70']"
+                data-lineheight="['130', '120', '100', '90']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['-18', '-28', '-28', '-48']"
+                data-width="['1100','960','768','576']"
+                data-height="['auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              >
+                
+              </h2>
+
+              <!--  -->
+              <p
+                class="tp-caption tp-resizeme layer3"
+                data-frames='[{"delay":1800,"speed":1300,"frame":"0","from":"x:-200px;skX:85px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['18', '18', '18', '18']"
+                data-lineheight="['30', '30', '30', '30']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['107', '80', '80', '77']"
+                data-width="['970','768','768','576']"
+                data-height="['auto', 'auto', 'auto', 'auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 35, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 35, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              ></p>
+
+              <!--  -->
+              <div
+                class="tp-caption tp-resizeme flex-w flex-c-m layer4"
+                data-frames='[{"delay":3000,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.6;sY:0.6;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['218', '180', '180', '190']"
+                data-width="['970','960','768','576']"
+                data-height="['auto']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              >
+               
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product -->
+    <div class="sec-product bg0 p-t-145 p-b-25">
+      <div class="container">
+        <div class="size-a-1 flex-col-c-m p-b-48">
+          <div class="txt-center txt-m-201 cl10 how-pos1-parent m-b-14">
+            WELCOME
+
+            <div class="how-pos1">
+              <img src="images/icons/symbol-02.png" alt="IMG" />
+            </div>
+          </div>
+
+          <h3 class="txt-center txt-l-101 cl3 respon1">
+            Sản phẩm của chúng tôi
+          </h3>
+        </div>
+
+        <div class="p-b-46">
+          <div class="flex-w flex-c-m filter-tope-group" id="categoies2">
+            
+            <!-- <button class="txt-m-104 cl9 hov2 trans-04 p-rl-27 p-b-10 how-active1" data-filter="*">
+						Tất cả
+					</button>
+
+					<button class="txt-m-104 cl9 hov2 trans-04 p-rl-27 p-b-10" data-filter=".dienthoai">
+						Điện thoại
+					</button>
+
+					<button class="txt-m-104 cl9 hov2 trans-04 p-rl-27 p-b-10" data-filter=".laptop">
+						Laptop
+					</button>
+
+					<button class="txt-m-104 cl9 hov2 trans-04 p-rl-27 p-b-10" data-filter=".tablet">
+						Tablet
+					</button>
+
+					<button class="txt-m-104 cl9 hov2 trans-04 p-rl-27 p-b-10" data-filter=".phukien">
+						Phụ kiện
+					</button>
+
+					<button class="txt-m-104 cl9 hov2 trans-04 p-rl-27 p-b-10" data-filter=".smartwatch">
+						Smartwatch
+					</button> -->
+          </div>
+        </div>
+
+        <div class="row isotope-grid" id="products_fruit">
+          <!-- <div class="col-sm-6 col-md-4 col-lg-3 p-b-75 isotope-item dienthoai"> -->
+
+          <!-- <div class="block1">
+						<div class="block1-bg wrap-pic-w bo-all-1 bocl12 hov3 trans-04 p-t-10">
+							<img src="https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-5g-128gb-thumb-tim-600x600.jpg" alt="IMG">	
+							
+							<div class="flex-col-c-m p-b-46">
+								<a href="product-single.html" class="txt-m-103 cl3 txt-center hov-cl10 trans-04 js-name-b1 p-t-20">
+									Samsung Galaxy Z Flip4 5G
+								</a>
+
+								<span class="block1-content-more txt-m-104 cl9 p-t-21 trans-04">
+									21.990.000đ
+								</span>
+
+								<div class="block1-wrap-icon flex-c-m flex-w trans-05">
+									<a href="product-single.html" class="block1-icon flex-c-m wrap-pic-max-w">
+										<img src="images/icons/icon-view.png" alt="ICON">
+									</a>
+
+									<a href="#" class="block1-icon flex-c-m wrap-pic-max-w js-addcart-b1">
+										<img src="images/icons/icon-cart.png" alt="ICON">
+									</a>
+
+									<a href="wishlist.html" class="block1-icon flex-c-m wrap-pic-max-w js-addwish-b1">
+										<img class="icon-addwish-b1" src="images/icons/icon-heart.png" alt="ICON">
+										<img class="icon-addedwish-b1" src="images/icons/icon-heart2.png" alt="ICON">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>	 -->
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Footer -->
+    
+
+    <!-- Back to top -->
+    <div class="btn-back-to-top bg0-hov" id="myBtn">
+      <span class="symbol-btn-back-to-top">
+        <span class="lnr lnr-chevron-up"></span>
+      </span>
+    </div>
+
+    <!--===============================================================================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendor/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="js/revo-custom.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/daterangepicker/moment.min.js"></script>
+    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/slick/slick.min.js"></script>
+    <script src="js/slick-custom.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/parallax100/parallax100.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/isotope/isotope.pkgd.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/sweetalert/sweetalert.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/countdowntime/moment.min.js"></script>
+    <script src="vendor/countdowntime/moment-timezone.min.js"></script>
+    <script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+    <script src="vendor/countdowntime/jquery.countdown.min.js"></script>
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/waypoint/jquery.waypoints.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/countterup/jquery.counterup.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
+<script src="/dist/ASM/typescript/product.js"></script>

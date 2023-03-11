@@ -1,0 +1,604 @@
+{
+  "categoies": [
+    {
+      "id": 1,
+      "name": "Điện thoại",
+      "name2": "dienthoai"
+    },
+    {
+      "id": 2,
+      "name": "Laptop",
+      "name2": "laptop"
+    },
+    {
+      "id": 3,
+      "name": "Tablet",
+      "name2": "tablet"
+    },
+    {
+      "id": 4,
+      "name": "Phụ kiện",
+      "name2": "phukien"
+    },
+    {
+      "id": 5,
+      "name": "Smartwatch",
+      "name2": "smartwatch"
+    },
+    {
+      "id": 6,
+      "name": "Máy in",
+      "name2": "mayin"
+    }
+  ],
+  "products": [
+    {
+      "name": "Máy đt cô Xuân",
+      "price": "20990000",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-5g-128gb-thumb-tim-600x600.jpg",
+      "detail": "Samsung Galaxy Z Flip4 128GB sở hữu cơ chế hoạt động của một chiếc điện thoại gập hiện đại, với độ bền bỉ được gia tăng rất nhiều so với thế hệ tiền nhiệm giúp cho máy có thể đồng hành cùng với bạn trong một khoảng thời gian lâu dài và ít khi xảy ra các tình trạng hỏng hóc.",
+      "cat_id": "1",
+      "id": 1
+    },
+    {
+      "id": 3,
+      "name": "Xiaomi Redmi Note 11",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/269831/Xiaomi-redmi-note-11-black-600x600.jpeg",
+      "price": 4490000,
+      "detail": "Redmi Note 11 được hoàn thiện từ nhựa nguyên khối, mặt lưng thiết kế nhám mờ giúp quá trình sử dụng được thoải mái hơn, không bị trơn, tuột. Thiết kế nhám cũng giúp máy trông mạnh mẽ, cứng cáp hơn.",
+      "cat_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Samsung Galaxy Tab S8",
+      "image": "https://cdn.tgdd.vn/Products/Images/522/247510/Samsung-Galaxy-tab-s8-black-thumb-600x600.jpg",
+      "price": 20990000,
+      "detail": "Samsung Galaxy Tab S8 ra mắt và vẫn giữ được đặc trưng của dòng máy tính bảng Galaxy Tab S với cấu hình mạnh mẽ, màn hình hiển thị ổn cùng khả năng hỗ trợ bút S Pen hỗ trợ học tập làm việc tốt hơn.",
+      "cat_id": 3
+    },
+    {
+      "id": 5,
+      "name": "Tai nghe Bluetooth AirPods 3",
+      "image": "https://cdn.tgdd.vn/Products/Images/54/250701/airpods-3-hop-sac-khong-day-thumb-600x600.jpeg",
+      "price": 4790000,
+      "detail": "Airpods 3 có thiết kế tương tự như AirPods Pro nhưng không còn phần eartips, đường viền và thân ngắn hơn cho âm thanh truyền tải đến tai tối ưu. Bề mặt tai nghe Bluetooth Apple phủ sắc trắng thời thượng, được làm từ các vật liệu tái chế với độ bền cao, bảo vệ môi trường sống của con người. ",
+      "cat_id": 4
+    },
+    {
+      "id": 6,
+      "name": "Apple Watch SE 40mm",
+      "image": "https://cdn.tgdd.vn/Products/Images/7077/234918/se-40mm-vien-nhom-day-cao-su-xanh-den-thumb-1-600x600.jpg",
+      "price": 6990000,
+      "detail": "Apple Watch SE 40mm viền nhôm dây silicone hồng có thiết kế bo tròn 4 góc giúp thao tác vuốt chạm thoải mái hơn. Mặt kính cường lực Ion-X strengthened glass với kích thước 1.57 inch, hiển thị rõ ràng. Khung viền nhôm chắc chắn cùng dây đeo silicone có độ đàn hồi cao, êm ái, tạo cảm giác thoải mái khi đeo.",
+      "cat_id": 5
+    },
+    {
+      "id": 7,
+      "name": "Máy In laser Trắng Đen Brother HL",
+      "image": "https://cdn.tgdd.vn/Products/Images/5693/115902/may-in-laser-brother-hl-l2321d-thumb-600x600.jpg",
+      "price": 3090000,
+      "detail": "Được thiết kế hướng đến phục vụ người dùng doanh nghiệp nên máy in Brother HL-L2321D có kiểu dáng vuông vắn, màu sắc sạch sẽ, cứng cáp, giúp tối ưu không gian bố trí hơn.",
+      "cat_id": 6
+    },
+    {
+      "id": 8,
+      "name": "Samsung Galaxy S22 Ultra 5G",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/235838/Galaxy-S22-Ultra-Burgundy-600x600.jpg",
+      "price": 25990000,
+      "detail": "Galaxy S22 Ultra 5G chiếc smartphone cao cấp nhất trong bộ 3 Galaxy S22 series mà Samsung đã cho ra mắt. Tích hợp bút S Pen hoàn hảo trong thân máy, trang bị vi xử lý mạnh mẽ cho các tác vụ sử dụng vô cùng mượt mà và nổi bật hơn với cụm camera không viền độc đáo mang đậm dấu ấn riêng.",
+      "cat_id": 1
+    },
+    {
+      "id": 9,
+      "name": "Xiaomi Redmi Note 11S series",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/272668/xiaomi-redmi-note-11s-5g-%20thumb-600x600.jpg",
+      "price": 6490000,
+      "detail": "Tại sự kiện ra mắt sản phẩm mới diễn ra hôm 29/3, điện thoại Xiaomi đã ra mắt Redmi Note 11S 5G toàn cầu. Thiết bị là một bản nâng cấp đáng giá so với Redmi Note 11S 4G, cùng xem máy có gì đặc biệt thôi nào.",
+      "cat_id": 1
+    },
+    {
+      "id": 10,
+      "name": "iPhone 13 Pro Max",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/230529/iphone-13-pro-max-xanh-la-thumb-600x600.jpg",
+      "price": 27790000,
+      "detail": "Điện thoại iPhone 13 Pro Max 128 GB - siêu phẩm được mong chờ nhất ở nửa cuối năm 2021 đến từ Apple. Máy có thiết kế không mấy đột phá khi so với người tiền nhiệm, bên trong đây vẫn là một sản phẩm có màn hình siêu đẹp, tần số quét được nâng cấp lên 120 Hz mượt mà, cảm biến camera có kích thước lớn hơn, cùng hiệu năng mạnh mẽ với sức mạnh đến từ Apple A15 Bionic, sẵn sàng cùng bạn chinh phục mọi thử thách.",
+      "cat_id": 1
+    },
+    {
+      "id": 11,
+      "name": "Samsung Galaxy A23",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/262650/samsung-galaxy-a23-cam-thumb-600x600.jpg",
+      "price": 5690000,
+      "detail": "Samsung Galaxy A23 4GB sở hữu bộ thông số kỹ thuật khá ấn tượng trong phân khúc, máy có một hiệu năng ổn định, cụm 4 camera thông minh cùng một diện mạo trẻ trung phù hợp cho mọi đối tượng người dùng.",
+      "cat_id": 1
+    },
+    {
+      "id": 12,
+      "name": "Vivo Y15 series",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/249720/TimerThumb/vivo-y15s-2021-(4).jpg",
+      "price": 3290000,
+      "detail": "Vivo vừa mang một chiến binh mới đến phân khúc tầm trung giá rẻ có tên Vivo Y15s, một sản phẩm sở hữu khá nhiều ưu điểm như thiết kế đẹp, màn hình lớn, camera kép, pin cực trâu và còn rất nhiều điều thú vị khác đang chờ đón bạn.",
+      "cat_id": 1
+    },
+    {
+      "id": 14,
+      "name": "OPPO A55",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/249944/oppo-a55-4g-thumb-new-600x600.jpg",
+      "price": 4490000,
+      "detail": "OPPO cho ra mắt OPPO A55 4G chiếc smartphone giá rẻ tầm trung có thiết kế đẹp mắt, cấu hình khá ổn, cụm camera chất lượng và dung lượng pin ấn tượng, mang đến một lựa chọn trải nghiệm thú vị vừa túi tiền cho người tiêu dùng.",
+      "cat_id": 1
+    },
+    {
+      "id": 15,
+      "name": "Alcatel 3T8",
+      "image": "https://cdn.tgdd.vn/Products/Images/522/270132/Alcatel-3T8-1-600x600.jpg",
+      "price": 2590000,
+      "detail": "Máy tính bảng Alcatel 3T8 mỏng nhẹ với trọng lượng 290 g, là người bạn lý tưởng khi bạn di chuyển. Màu sắc tinh tế cùng lớp nhám mờ hoàn thiện đặc biệt giúp bạn trông đẹp mắt ở bất cứ đâu.",
+      "cat_id": 3
+    },
+    {
+      "id": 16,
+      "name": "Samsung Galaxy Tab A7 Lite",
+      "image": "https://cdn.tgdd.vn/Products/Images/522/237325/samsung-galaxy-tab-a7-lite-gray-600x600.jpg",
+      "price": 4490000,
+      "detail": "Máy tính bảng Samsung Galaxy Tab A7 Lite là phiên bản rút gọn của dòng tablet ăn khách Galaxy Tab A7 thuộc thương hiệu Samsung, đáp ứng nhu cầu giải trí của khách hàng thuộc phân khúc bình dân với màn hình lớn nhưng vẫn gọn nhẹ hợp túi tiền.",
+      "cat_id": 3
+    },
+    {
+      "id": 17,
+      "name": "iPad Pro M1 11 inch 5G",
+      "image": "https://cdn.tgdd.vn/Products/Images/522/269329/pad-pro-m1-11-inch-wifi-cellular-1tb-2021-bac-thumb-600x600.jpeg",
+      "price": 41990000,
+      "detail": "Máy tính bảng iPad Pro M1 11 inch WiFi Cellular 1TB (2021) thiết kế hình hộp vát cạnh vuông vức, hiện đại với thân máy bằng kim loại chắc chắn, hoàn thiện tỉ mỉ và sang trọng, trọng lượng nhẹ, kích cỡ hợp lý thuận tiện sử dụng và mang theo.",
+      "cat_id": 3
+    },
+    {
+      "id": 18,
+      "name": "iPad Pro M1 12.9 inch 5G",
+      "image": "https://cdn.tgdd.vn/Products/Images/522/238649/ipad-pro-2021-129-inch-silver-600x600.jpg",
+      "price": 29290000,
+      "detail": "Bạn có đang mong chờ những sản phẩm chất lượng đến từ Apple? Sau hàng loạt các sản phẩm đình đám như iPhone 12 series thì hãng đã tung ra chiếc iPad Pro M1 12.9 inch Wifi Cellular 128GB (2021) trang bị những tính năng ngày càng vượt trội và thời thượng.",
+      "cat_id": 3
+    },
+    {
+      "id": 19,
+      "name": "Tai nghe Bluetooth True Wireless",
+      "image": "https://cdn.tgdd.vn/Products/Images/54/286046/bluetooth-true-wireless-samsung-galaxy-buds2-pro-trang-600x600.jpg",
+      "price": 4990000,
+      "detail": "Tai nghe Bluetooth True Wireless Samsung Galaxy Buds 2 Pro R510N Trắng chắc chắn sẽ cho bạn trải nghiệm sử dụng tuyệt vời nhờ thiết kế nhỏ gọn, đẹp mắt cùng nhiều công nghệ và tính năng hiện đại được tích hợp như: 360 Reality Audio, công nghệ chống ồn chủ động, công nghệ xuyên âm,...",
+      "cat_id": 4
+    },
+    {
+      "id": 20,
+      "name": "Pin sạc dự phòng 7500 mAh AVA+",
+      "image": "https://cdn.tgdd.vn/Products/Images/57/240696/ava-lj-jp199-thumb-600x600.jpeg",
+      "price": 245000,
+      "detail": "Sạc dự phòng AVA+ nhỏ gọn, trẻ trung, với 2 tone màu hồng phấn ngọt ngào hoặc xanh ngọc tinh tế lựa chọn. AVA+ LJ JP199 có vỏ bọc kim loại cứng cáp chống bám vân tay tốt, các góc bo tròn bảo vệ chống trầy xước và cho thiết bị nét mềm mại, gọn gàng hơn khi bảo quản trong giỏ xách, túi quần…",
+      "cat_id": 4
+    },
+    {
+      "id": 21,
+      "name": "Tai nghe Bluetooth True Wireless",
+      "image": "https://cdn.tgdd.vn/Products/Images/54/230363/tai-nghe-bluetooth-true-wireless-mozard-ts13-thumb-2-600x600.jpeg",
+      "price": 455000,
+      "detail": "Là mẫu tai nghe không dây thời thượng, Mozard TS13 tạo ấn tượng mạnh với củ tai nhỏ nhẹ, cho thao tác đeo, sử dụng cực thoải mái, tiện lợi. Khối lượng chỉ 39 gam nên vô cùng thích hợp để mang theo bên mình đi bất kỳ đâu.",
+      "cat_id": 4
+    },
+    {
+      "id": 23,
+      "name": "Đồng hồ Samsung Galaxy Watch",
+      "image": "https://cdn.tgdd.vn/Products/Images/7077/278317/samsung-galaxy-watch-4-classic-46mm-den-600x600.jpg",
+      "price": 5490000,
+      "detail": "Điểm nhấn của Samsung Galaxy Watch 4 Classic nằm ở thiết kế đậm nét cổ điển với những góc cạnh được vát tròn tinh tế. Vì thế, dù sở hữu đường kính mặt là 46 mm thì đồng hồ vẫn mang lại cảm giác gọn nhẹ, thanh lịch.",
+      "cat_id": 5
+    },
+    {
+      "id": 24,
+      "name": "Đồng hồ Xiaomi Watch S1 46.5mm",
+      "image": "https://cdn.tgdd.vn/Products/Images/7077/274192/274192-n%C3%A2u-600x600.jpg",
+      "price": 5490000,
+      "detail": "Xiaomi Watch S1 là chiếc smartwatch mới nhất được nhà Xiaomi cho ra mắt, với diện mạo vô cùng thanh lịch được nâng cấp về mặt thiết kế cũng như tính năng so với thế hệ trước.",
+      "cat_id": 5
+    },
+    {
+      "id": 25,
+      "name": "Honor Watch GS3 45.9mm dây da",
+      "image": "https://cdn.tgdd.vn/Products/Images/7077/285233/honor-watch-gs-3-day-da-vang-tb-1-2-600x600.jpg",
+      "price": 5490000,
+      "detail": "Mang phong cách thiết kế thanh lịch, tinh tế, hỗ trợ nhiều tính năng theo dõi sức khỏe, cùng nhiều tiện ích đi kèm, đồng hồ HONOR Watch GS3 sẽ là một thiết bị không thể thiếu cho các tín đồ yêu thích luyện tập và lối sống hiện đại.",
+      "cat_id": 5
+    },
+    {
+      "id": 26,
+      "name": "Apple Watch Series 7 GPS 41mm",
+      "image": "https://cdn.tgdd.vn/Products/Images/7077/249906/apple-watch-s7-41mm-den-thumb-600x600.jpg",
+      "price": 9990000,
+      "detail": "Thiết kế của Apple Watch S7 GPS 41 mm thừa hưởng nhiều nét tương đồng với người anh Apple Watch S6 nhưng các góc cạnh được vát tròn mềm mại hơn mang đến cho người đeo cảm giác thanh lịch nhưng không kém phần năng động. Chiếc smartwatch thế hệ thứ 7 được nhà Táo trang bị màn hình OLED 1.61 inch với viền màn hình mỏng hơn 40%, nâng diện tích màn hình lên 20% và nội dung hiển thị trên màn hình cũng nhiều hơn 50% so với thế hệ cũ.",
+      "cat_id": 5
+    },
+    {
+      "id": 27,
+      "name": "iMac 24 inch M1 2021 4.5K/7-core",
+      "image": "https://cdn.tgdd.vn/Products/Images/5698/238061/imac-24-icnh-2021-m1-thumb-bac-1-600x600.jpg",
+      "price": 32690000,
+      "detail": "Máy tính để bàn iMac 24 inch 2021 4.5K Retina M1 (MGTF3SA/A) của Apple ra mắt đầu quý 2 năm 2021 gây xôn xao bởi diện mạo lột xác mới mẻ, cá tính, đồng thời thừa hưởng sức mạnh từ chip xử lý M1 và màn hình 4.5K Retina, đáp ứng mọi nhu cầu từ văn phòng đến xử lý hình ảnh, video chuyên nghiệp.",
+      "cat_id": 6
+    },
+    {
+      "id": 28,
+      "name": "Máy In laser Trắng Đen Brother HL",
+      "image": "https://cdn.tgdd.vn/Products/Images/5693/115902/may-in-laser-brother-hl-l2321d-thumb-600x600.jpg",
+      "price": 3090000,
+      "detail": "Được thiết kế hướng đến phục vụ người dùng doanh nghiệp nên máy in Brother HL-L2321D có kiểu dáng vuông vắn, màu sắc sạch sẽ, cứng cáp, giúp tối ưu không gian bố trí hơn.",
+      "cat_id": 6
+    },
+    {
+      "id": 29,
+      "name": "Acer TravelMate B3",
+      "image": "https://cdn.tgdd.vn/Products/Images/44/263977/TimerThumb/acer-travelmate-b3-tmb311-31-p49d-n5030-nxvnfsv005-(24).jpg",
+      "price": 5390000,
+      "detail": "Acer TravelMate B3 được chế tác từ chất liệu nhựa cứng cáp, khối lượng 1.4 kg và độ dày 20.99 mm, lúc cầm mình cảm thấy chiếc máy sẽ hơi nặng một xíu nhưng bù lại rất chắc tay, cứng cáp và không quá cồng kềnh.",
+      "cat_id": 2
+    },
+    {
+      "id": 30,
+      "name": "MacBook Air M1",
+      "image": "https://cdn.tgdd.vn/Products/Images/44/231244/TimerThumb/apple-macbook-air-2020-mgn63saa-(14).jpg",
+      "price": 24690000,
+      "detail": "Laptop Apple MacBook Air M1 2020 thuộc dòng laptop cao cấp sang trọng có cấu hình mạnh mẽ, chinh phục được các tính năng văn phòng lẫn đồ hoạ mà bạn mong muốn, thời lượng pin dài, thiết kế mỏng nhẹ sẽ đáp ứng tốt các nhu cầu làm việc của bạn.",
+      "cat_id": 2
+    },
+    {
+      "id": 31,
+      "name": "Lenovo IdeaPad 3",
+      "image": "https://cdn.tgdd.vn/Products/Images/44/279905/TimerThumb/279905.jpg",
+      "price": 8190000,
+      "detail": "Thiết kế hiện đại, thanh lịch cùng những thông số kỹ thuật ổn định sẽ là các ưu điểm mà laptop Lenovo IdeaPad 3 15IML05 i3 (81WB01DYVN) sở hữu nhằm đáp ứng tốt mọi tác vụ học tập - văn phòng cơ bản cho học sinh, sinh viên hay nhân viên văn phòng.",
+      "cat_id": 2
+    },
+    {
+      "id": 32,
+      "name": "HP 340s G7",
+      "image": "https://cdn.tgdd.vn/Products/Images/44/237630/TimerThumb/237630.png",
+      "price": 9890000,
+      "detail": "Bạn là học sinh sinh viên, bạn đang tìm kiếm một chiếc laptop đủ mạnh để phục vụ việc học mà giá vẫn phải chăng? Tham khảo ngay laptop HP 340s G7 i3 (240Q4PA) với cấu hình ổn định, thiết kế mỏng nhẹ, là một lựa chọn lý tưởng trong tầm giá.",
+      "cat_id": 2
+    },
+    {
+      "id": 33,
+      "name": "Laptop Apple MacBook Pro M1",
+      "image": "https://cdn.tgdd.vn/Products/Images/44/231253/TimerThumb/apple-macbook-pro-2020-m1-myd82saa-(8).jpg",
+      "price": 32190000,
+      "detail": "Macbook Pro M1 2020 sở hữu thiết kế sang trọng kế thừa từ các thế hệ trước và bên trong là một cấu hình ấn tượng từ con chip M1 lần đầu tiên xuất hiện trên MacBook Pro, hiệu năng CPU của máy tăng đến 2.8 lần, hiệu năng GPU tăng 5 lần.",
+      "cat_id": 2
+    },
+    {
+      "id": 34,
+      "name": "Laptop HP 340s G7",
+      "image": "https://cdn.tgdd.vn/Products/Images/44/237630/TimerThumb/237630.png",
+      "price": 9890000,
+      "detail": "Bạn là học sinh sinh viên, bạn đang tìm kiếm một chiếc laptop đủ mạnh để phục vụ việc học mà giá vẫn phải chăng? Tham khảo ngay laptop HP 340s G7 i3 (240Q4PA) với cấu hình ổn định, thiết kế mỏng nhẹ, là một lựa chọn lý tưởng trong tầm giá.",
+      "cat_id": 2
+    },
+    {
+      "id": 35,
+      "name": "Laptop Acer Nitro 5 Gaming AN515",
+      "image": "https://cdn.tgdd.vn/Products/Images/44/263980/TimerThumb/acer-nitro-5-gaming-an515-45-r6ev-r5-nhqbmsv006-(24).jpg",
+      "price": 18640000,
+      "detail": "Phá cách với diện mạo mạnh mẽ đến từ laptop Acer Nitro 5 Gaming AN515 45 R6EV R5 5600H (NH.QBMSV.006) mang đến cho người dùng hiệu năng ổn định, hỗ trợ bạn trong mọi tác vụ hằng ngày hay chiến những trận game cực căng một cách mượt mà.",
+      "cat_id": 2
+    },
+    {
+      "id": 36,
+      "name": "Laptop Asus ROG Strix Gaming",
+      "image": "https://cdn.tgdd.vn/Products/Images/44/270031/TimerThumb/270031.png",
+      "price": 18890000,
+      "detail": "Laptop Asus ROG Strix Gaming G513IH (HN015W) là một trợ thủ đắc lực cho mọi game thủ chuyên nghiệp với phong cách thiết kế vô cùng độc đáo, ấn tượng chuẩn gaming cùng bộ cấu hình đầy mạnh mẽ.",
+      "cat_id": 2
+    },
+    {
+      "id": 37,
+      "name": "Laptop Dell Gaming G15 5511",
+      "image": "https://cdn.tgdd.vn/Products/Images/44/264354/TimerThumb/dell-gaming-g15-5511-i5-70266676-(24).jpg",
+      "price": 25790000,
+      "detail": "Không những mang đến cho người dùng hiệu năng ấn tượng nhờ con chip Intel thế hệ 11 tân tiến, laptop Dell Gaming G15 5511 i5 11400H (70266676) còn sở hữu thiết kế thời thượng, lôi cuốn, hứa hẹn sẽ là người cộng sự lý tưởng cùng bạn chinh phục mọi chiến trường.",
+      "cat_id": 2
+    },
+    {
+      "name": "Laptop HP Gaming VICTUS",
+      "price": "23990000",
+      "image": "https://cdn.tgdd.vn/Products/Images/44/268677/TimerThumb/hp-gaming-victus-16-e0170ax-r7-4r0u7pa-(24).jpg",
+      "detail": "Dòng Gaming Victus là một phiên bản lột xác hoàn toàn từ thiết kế đến hiệu năng của nhà HP. Chỉ với một mức giá tầm trung là bạn có thể sở hữu ngay chiếc laptop HP Gaming VICTUS 16 e0170AX R7 (4R0U7PA) chinh phục mọi tác vụ.",
+      "cat_id": "2",
+      "id": 38
+    },
+    {
+      "name": "iPhone 14",
+      "price": "23990000",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/240259/iPhone-14-thumb-tim-1-600x600.jpg",
+      "detail": "Sau bao khoảng thời gian dài chờ đợi thì vào ngày 08/09 chiếc điện thoại iPhone 14 cũng đã chính thức được lộ diện, với hàng loạt thông số kỹ thuật ấn tượng từ camera cho đến hiệu năng cực khủng. Từ ngày 14/10/2022 tại Thế Giới Di Động cũng đã chính thức mở bán tất cả các phiên bản iPhone 14 series để người dùng có thể sớm ngày được trải nghiệm.",
+      "cat_id": "1",
+      "id": 39
+    },
+    {
+      "name": "Màn Hình Asus VY249HE",
+      "price": "3390000",
+      "image": "https://cdn.tgdd.vn/Products/Images/5697/253750/asus-lcd-vy249he-238-fulhd-600x600.jpg",
+      "detail": "Màn hình Asus LCD VY249HE 23.8 inch Full HD mang đến hình ảnh sắc nét, chân thật, cho bạn tận hưởng những trải nghiệm sống động như đang trong chính thế giới ảo.",
+      "cat_id": "6",
+      "id": 40
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customer_name": "Vũ Thế Mạnh",
+      "customer_address": "25 Phạm Văn Đồng, Thủ Đức",
+      "customer_email": "vtmanh106188@gmail.com",
+      "customer_phone": "0879516481",
+      "create_date": "2022-09-12",
+      "status": "Chờ Xác Nhận"
+    },
+    {
+      "id": 2,
+      "customer_name": "Vũ Tiến Dũng",
+      "customer_address": "15 Lê Quang Định, Gò Vấp",
+      "customer_email": "vtd@gmail.com",
+      "customer_phone": "0123456789",
+      "create_date": "2022-09-13",
+      "status": "Đặt hàng thành công"
+    },
+    {
+      "id": 3,
+      "customer_name": "Vũ Tiến Năm",
+      "customer_address": "5 Kha Vạn Cân, Thủ Đức",
+      "customer_email": "vtn@gmail.com",
+      "customer_phone": "0987654321",
+      "create_date": "2022-09-17",
+      "status": "Chờ Xác Nhận"
+    },
+    {
+      "id": 4,
+      "customer_name": "Nguyễn Thị Tám",
+      "customer_address": "35 Nguyễn Kiệm, Tân Bình",
+      "customer_email": "ntt@gmail.com",
+      "customer_phone": "0878965432",
+      "create_date": "2022-09-19",
+      "status": "Đặt hàng thành công"
+    },
+    {
+      "id": 5,
+      "customer_name": "Phạm Thị Hồng Ánh",
+      "customer_address": "72 Nguyễn Xí, Bình Thạnh",
+      "customer_email": "ptha@gmail.com",
+      "customer_phone": "0121212121",
+      "create_date": "2022-09-22",
+      "status": "Chờ Xác Nhận"
+    },
+    {
+      "customer_name": "Vũ Mạnh",
+      "customer_address": "Thủ Đức",
+      "customer_email": "vtmanh106188@gmail.com",
+      "customer_phone": "0879516481",
+      "create_date": "2022-10-17",
+      "status": "Chờ xác nhận",
+      "id": 6
+    },
+    {
+      "customer_name": "Vũ Tiến Dũng",
+      "customer_address": "Thủ Đức",
+      "customer_email": "vtd@gmail.com",
+      "customer_phone": "0879516481",
+      "create_date": "2022-10-17",
+      "status": "Chờ xác nhận",
+      "id": 7
+    },
+    {
+      "customer_name": "Vũ Tiến Dũng",
+      "customer_address": "Thủ Đức",
+      "customer_email": "vadas@gmail.com",
+      "customer_phone": "057548855",
+      "create_date": "2022-10-17",
+      "status": "Chờ xác nhận",
+      "id": 8
+    },
+    {
+      "customer_name": "Nguyễn Văn Tèo",
+      "customer_address": "Nhà Bè",
+      "customer_email": "teotony@gmail.com",
+      "customer_phone": "0123456789",
+      "create_date": "2022-10-17",
+      "status": "Chờ xác nhận",
+      "id": 9
+    },
+    {
+      "customer_name": "Vũ Tèo",
+      "customer_address": "Bình Dương",
+      "customer_email": "vumanh188@gmail.com",
+      "customer_phone": "01215144161",
+      "create_date": "2022-10-17",
+      "status": "Chờ xác nhận",
+      "id": 10
+    },
+    {
+      "customer_name": "Minh Phúc",
+      "customer_address": "Quận 7",
+      "customer_email": "phuc@gmail.com",
+      "customer_phone": "0123456987",
+      "create_date": "2022-10-19",
+      "status": "Chờ xác nhận",
+      "id": 11
+    },
+    {
+      "customer_name": "Vũ Ánh",
+      "customer_address": "Hiệp Bình Phước",
+      "customer_email": "pghonganh@gmail.com",
+      "customer_phone": "0945291577",
+      "create_date": "2022-10-20",
+      "status": "Chờ xác nhận",
+      "id": 12
+    },
+    {
+      "customer_name": "Nguyễn Tèo",
+      "customer_address": "Thủ Dầu, Bình Dương",
+      "customer_email": "teonguyen@gmail.com",
+      "customer_phone": "01214151617",
+      "create_date": "2022-10-20",
+      "status": "Chờ xác nhận",
+      "id": 13
+    },
+    {
+      "customer_name": "Cô Xuân",
+      "customer_address": "Gò Vấp",
+      "customer_email": "coxuan@gmail.com",
+      "customer_phone": "0123456789",
+      "create_date": "2022-10-20",
+      "status": "Chờ xác nhận",
+      "id": 14
+    }
+  ],
+  "order_detail": [
+    {
+      "id": 1,
+      "order_id": 1,
+      "product_id": 1,
+      "quantity": 2,
+      "unti_price": 43980000
+    },
+    {
+      "id": 3,
+      "order_id": 2,
+      "product_id": 3,
+      "quantity": 1,
+      "unti_price": 4490000
+    },
+    {
+      "id": 4,
+      "order_id": 3,
+      "product_id": 4,
+      "quantity": 3,
+      "unti_price": 16170000
+    },
+    {
+      "id": 5,
+      "order_id": 4,
+      "product_id": 5,
+      "quantity": 2,
+      "unti_price": 16380000
+    },
+    {
+      "id": 6,
+      "order_id": 5,
+      "product_id": 6,
+      "quantity": 1,
+      "unti_price": 24690000
+    },
+    {
+      "order_id": 7,
+      "product_id": 8,
+      "quantity": 1,
+      "unti_price": 25990000,
+      "id": 7
+    },
+    {
+      "order_id": 7,
+      "product_id": 14,
+      "quantity": 1,
+      "unti_price": 4490000,
+      "id": 8
+    },
+    {
+      "order_id": 8,
+      "product_id": 8,
+      "quantity": 1,
+      "unti_price": 25990000,
+      "id": 9
+    },
+    {
+      "order_id": 9,
+      "product_id": 8,
+      "quantity": 2,
+      "unti_price": 25990000,
+      "id": 10
+    },
+    {
+      "order_id": 10,
+      "product_id": 3,
+      "quantity": 2,
+      "unti_price": 4490000,
+      "id": 11
+    },
+    {
+      "order_id": 11,
+      "product_id": 3,
+      "quantity": 1,
+      "unti_price": 4490000,
+      "id": 12
+    },
+    {
+      "order_id": 11,
+      "product_id": 4,
+      "quantity": 2,
+      "unti_price": 20990000,
+      "id": 13
+    },
+    {
+      "order_id": 11,
+      "product_id": 11,
+      "quantity": 2,
+      "unti_price": 5690000,
+      "id": 14
+    },
+    {
+      "order_id": 13,
+      "product_id": 5,
+      "quantity": "1",
+      "unti_price": 4790000,
+      "id": 15
+    },
+    {
+      "order_id": 14,
+      "product_id": 3,
+      "quantity": "1",
+      "unti_price": 4490000,
+      "id": 16
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "vuthemanh18895hp@gmail.com",
+      "password": "vtm188106",
+      "name_users": "Vũ Thế Mạnh",
+      "phone": "0879516481"
+    },
+    {
+      "email": "vtmanh106188@gmail.com",
+      "password": "180895100696",
+      "name_users": "Mạnh Vũ",
+      "phone": "0934348481",
+      "id": 2
+    },
+    {
+      "email": "ptha@gmail.com",
+      "password": "honganh123",
+      "name_users": "Hồng Ánh",
+      "phone": "0945291577",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "email": "vuthemanh18895hp@gmail.com",
+      "password": "vtm188106",
+      "name_users": "Vũ Thế Mạnh",
+      "phone": "0879516481"
+    },
+    {
+      "email": "testne@gmail.com",
+      "password": "123456123456",
+      "name_users": "Test Nè",
+      "phone": "0123456789",
+      "id": 5
+    }
+  ]
+}

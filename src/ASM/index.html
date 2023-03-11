@@ -1,0 +1,1730 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SMILE PHONE</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.png" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/linearicons-v1.0.0/icon-font.min.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/css-hamburgers/hamburgers.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/animsition/css/animsition.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/select2/select2.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/daterangepicker/daterangepicker.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/lightbox2/css/lightbox.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/perfect-scrollbar/perfect-scrollbar.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/revolution/css/layers.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/revolution/css/navigation.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/revolution/css/settings.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!--===============================================================================================-->
+    <style>
+      .block1 img.image_sp {
+        height: 268px;
+      }
+    </style>
+  </head>
+  <body class="animsition">
+    <!-- Header -->
+    <header>
+      <!-- Header desktop -->
+      <div class="container-menu-desktop">
+        <div class="wrap-menu-desktop">
+          <nav class="limiter-menu-desktop">
+            <div class="left-header">
+              <!-- Logo desktop -->
+              <div class="logo">
+                <a href="index.html"
+                  ><img
+                    src="images/logo-smile-phone.png"
+                    style="width: 70px"
+                    alt="IMG-LOGO"
+                /></a>
+              </div>
+            </div>
+
+            <div class="center-header">
+              <!-- Menu desktop -->
+              <div class="menu-desktop">
+                <ul class="main-menu">
+                  <li class="active-menu">
+                    <a href="index.html">Trang Chủ</a>
+                    <!-- <ul class="sub-menu">
+										<li><a href="index.html">Homepage 1</a></li>
+										<li><a href="home-02.html">Homepage 2</a></li>
+										<li><a href="home-03.html">Homepage 3</a></li>
+										<li><a href="home-04.html">Homepage 4</a></li>
+										<li><a href="home-05.html">Homepage 5</a></li>
+										<li><a href="home-06.html">Homepage 6</a></li>
+									</ul> -->
+                  </li>
+
+                  <li>
+                    <a href="#">Sản phẩm</a>
+                    <ul class="sub-menu" id="categoies">
+                      <!-- <li><a href="#">Điện thoại</a></li>
+										<li><a href="#">Laptop</a></li>
+										<li><a href="#">Tablet</a></li>
+										<li><a href="#">Phụ kiện</a></li>
+										<li><a href="#">Smartwatch</a></li>
+										<li><a href="#">PC/Máy in</a></li> -->
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="#">Bài viết</a>
+                  </li>
+
+                  <li>
+                    <a href="#">Liên hệ</a>
+                  </li>
+
+                  <li>
+                    <a href="shop-cart.html">Giỏ Hàng</a>
+                  </li>
+
+                  <li>
+                    <a href="account.html">Đăng nhập</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="right-header">
+              <!-- Icon header -->
+              <div
+                class="wrap-icon-header flex-w flex-r-m h-full wrap-menu-click p-t-8"
+              >
+                <div class="h-full flex-m">
+                  <div
+                    class="icon-header-item flex-c-m trans-04 js-show-modal-search"
+                  >
+                    <img src="images/icons/icon-search.png" alt="SEARCH" />
+                  </div>
+                </div>
+
+                <div
+                  class="wrap-cart-header h-full flex-m m-l-10 menu-click"
+                  id="count-item"
+                >
+                  <div
+                    class="icon-header-item flex-c-m trans-04 icon-header-noti"
+                    data-notify="*"
+                  >
+                    <img src="images/icons/icon-cart-2.png" alt="CART" />
+                  </div>
+
+                  <div class="cart-header menu-click-child trans-04">
+                    <div class="bo-b-1 bocl15">
+                      <div
+                        class="size-h-2 js-pscroll m-r--15 p-r-15"
+                        id="show_right"
+                      >
+                        <!-- cart header item -->
+                      </div>
+                    </div>
+
+                    <div class="flex-w flex-sb-m p-b-31">
+                      <span class="txt-m-103 cl3 p-r-20"> Tổng tiền </span>
+
+                      <span class="txt-m-111 cl10" id="total_right"> </span>
+                    </div>
+
+                    <a
+                      href="shop-cart.html"
+                      class="flex-c-m size-a-8 bg10 txt-s-105 cl13 hov-btn2 trans-04"
+                    >
+                      Thanh toán
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Header Mobile -->
+      <div class="wrap-header-mobile">
+        <!-- Logo moblie -->
+        <div class="logo-mobile">
+          <a href="index.html"
+            ><img src="images/logo-360.png" alt="IMG-LOGO"
+          /></a>
+        </div>
+
+        <!-- Icon header -->
+        <div
+          class="wrap-icon-header flex-w flex-r-m h-full wrap-menu-click m-r-15"
+        >
+          <div class="h-full flex-m">
+            <div
+              class="icon-header-item flex-c-m trans-04 js-show-modal-search"
+            >
+              <img src="images/icons/icon-search.png" alt="SEARCH" />
+            </div>
+          </div>
+
+          <div class="wrap-cart-header h-full flex-m m-l-5 menu-click">
+            <div
+              class="icon-header-item flex-c-m trans-04 icon-header-noti"
+              data-notify="2"
+            >
+              <img src="images/icons/icon-cart-2.png" alt="CART" />
+            </div>
+
+            <div class="cart-header menu-click-child trans-04">
+              <div class="bo-b-1 bocl15">
+                <!-- cart header item -->
+                <div class="flex-w flex-str m-b-25">
+                  <div class="size-w-15 flex-w flex-t">
+                    <a
+                      href="product-single.html"
+                      class="wrap-pic-w bo-all-1 bocl12 size-w-16 hov3 trans-04 m-r-14"
+                    >
+                      <img src="images/item-cart-01.jpg" alt="PRODUCT" />
+                    </a>
+
+                    <div class="size-w-17 flex-col-l">
+                      <a
+                        href="product-single.html"
+                        class="txt-s-108 cl3 hov-cl10 trans-04"
+                      >
+                        Iphone 14 Pro Max
+                      </a>
+
+                      <span class="txt-s-101 cl9"> 33.990.000đ </span>
+
+                      <span class="txt-s-109 cl12"> x2 </span>
+                    </div>
+                  </div>
+
+                  <div class="size-w-14 flex-b">
+                    <button class="lh-10">
+                      <img src="images/icons/icon-close.png" alt="CLOSE" />
+                    </button>
+                  </div>
+                </div>
+
+                <!-- cart header item -->
+                <div class="flex-w flex-str m-b-25">
+                  <div class="size-w-15 flex-w flex-t">
+                    <a
+                      href="product-single.html"
+                      class="wrap-pic-w bo-all-1 bocl12 size-w-16 hov3 trans-04 m-r-14"
+                    >
+                      <img src="images/item-cart-02.jpg" alt="PRODUCT" />
+                    </a>
+
+                    <div class="size-w-17 flex-col-l">
+                      <a
+                        href="product-single.html"
+                        class="txt-s-108 cl3 hov-cl10 trans-04"
+                      >
+                        MacBook Air M1 220 7-core GPU
+                      </a>
+
+                      <span class="txt-s-101 cl9"> 24.490.000đ </span>
+
+                      <span class="txt-s-109 cl12"> x1 </span>
+                    </div>
+                  </div>
+
+                  <div class="size-w-14 flex-b">
+                    <button class="lh-10">
+                      <img src="images/icons/icon-close.png" alt="CLOSE" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex-w flex-sb-m p-t-22 p-b-12">
+                <span class="txt-m-103 cl3 p-r-20"> Ship </span>
+
+                <span class="txt-m-111 cl6"> 60.000đ </span>
+              </div>
+
+              <div class="flex-w flex-sb-m p-b-31">
+                <span class="txt-m-103 cl3 p-r-20"> Tổng tiền </span>
+
+                <span class="txt-m-111 cl10"> 92.530.000đ </span>
+              </div>
+
+              <a
+                href="checkout.html"
+                class="flex-c-m size-a-8 bg10 txt-s-105 cl13 hov-btn2 trans-04"
+              >
+                Thanh toán
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Button show menu -->
+        <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </div>
+      </div>
+
+      <!-- Menu Mobile -->
+      <div class="menu-mobile">
+        <ul class="main-menu-m">
+          <li>
+            <a href="index.html">Trang chủ</a>
+
+            <span class="arrow-main-menu-m">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+          </li>
+
+          <li>
+            <a href="#">Sản phẩm</a>
+            <ul class="sub-menu">
+              <li><a href="#">Điện thoại</a></li>
+              <li><a href="#">Laptop</a></li>
+              <li><a href="#">Tablet</a></li>
+              <li><a href="#">Phụ kiện</a></li>
+              <li><a href="#">Smartwatch</a></li>
+              <li><a href="#">PC/Máy in</a></li>
+            </ul>
+
+            <span class="arrow-main-menu-m">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+          </li>
+
+          <li>
+            <a href="#">Bài viết</a>
+
+            <span class="arrow-main-menu-m">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+          </li>
+
+          <li>
+            <a href="#">Liên hệ</a>
+
+            <span class="arrow-main-menu-m">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+          </li>
+
+          <li>
+            <a href="account.html">Đăng nhập</a>
+
+            <span class="arrow-main-menu-m">
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Modal Search -->
+      <div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
+        <button
+          class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search"
+        >
+          <span class="lnr lnr-cross"></span>
+        </button>
+
+        <div class="container-search-header">
+          <form class="wrap-search-header flex-w">
+            <button class="flex-c-m trans-04">
+              <span class="lnr lnr-magnifier"></span>
+            </button>
+            <input
+              class="plh1"
+              type="text"
+              name="search"
+              placeholder="Tìm kiếm..."
+            />
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <!-- Slider -->
+    <section class="sec-slider">
+      <div class="rev_slider_wrapper fullwidthbanner-container">
+        <div
+          id="rev_slider_4"
+          class="rev_slide fullwidthabanner"
+          data-version="5.4.5"
+          style="display: none"
+        >
+          <ul>
+            <!-- Slide 1 -->
+            <li data-transition="fade">
+              <!--  -->
+              <img
+                src="images/banner-ip14.PNG"
+                alt="IMG-BG"
+                class="rev-slidebg"
+              />
+
+              <!--  -->
+              <div
+                class="tp-caption tp-resizeme layer1"
+                data-frames='[{"delay":500,"speed":1300,"frame":"0","from":"y:150px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['35', '35', '30', '30']"
+                data-lineheight="['42', '42', '42', '42']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['-116', '-116', '-116', '-146']"
+                data-width="['970','960','768','576']"
+                data-height="['auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              ></div>
+
+              <!--  -->
+              <h2
+                class="tp-caption tp-resizeme layer2"
+                data-frames='[{"delay":1300,"speed":1300,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['120', '90', '80', '70']"
+                data-lineheight="['130', '120', '100', '90']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['-18', '-28', '-28', '-48']"
+                data-width="['1100','960','768','576']"
+                data-height="['auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              ></h2>
+
+              <!--  -->
+              <p
+                class="tp-caption tp-resizeme layer3"
+                data-frames='[{"delay":500,"speed":1300,"frame":"0","from":"y:-150px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['18', '18', '18', '18']"
+                data-lineheight="['30', '30', '30', '30']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['107', '80', '80', '77']"
+                data-width="['970','768','768','576']"
+                data-height="['auto', 'auto', 'auto', 'auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 35, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 35, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              ></p>
+
+              <!--  -->
+              <div
+                class="tp-caption tp-resizeme flex-w flex-c-m layer4"
+                data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['218', '180', '180', '190']"
+                data-width="['970','960','768','576']"
+                data-height="['auto']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              >
+                <a href="about-01.html" class="btn-slide flex-c-m">
+                  Xem thêm
+                  <span class="lnr lnr-chevron-right m-l-7"></span>
+                  <span class="lnr lnr-chevron-right"></span>
+                </a>
+              </div>
+            </li>
+
+            <!-- Slide 2 -->
+            <li data-transition="fade">
+              <!--  -->
+              <img
+                src="https://file.hstatic.net/1000379731/collection/macbook_m1_banner_1e6195cc76f6435d8e651b1773e07e24.png"
+                alt="IMG-BG"
+                class="rev-slidebg"
+              />
+
+              <!--  -->
+              <div
+                class="tp-caption tp-resizeme layer1"
+                data-frames='[{"delay":1800,"speed":1300,"frame":"0","from":"x:200px;skX:-85px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['35', '35', '30', '30']"
+                data-lineheight="['42', '42', '42', '42']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['-116', '-116', '-116', '-146']"
+                data-width="['970','960','768','576']"
+                data-height="['auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              ></div>
+
+              <!--  -->
+              <h2
+                class="tp-caption tp-resizeme layer2"
+                data-frames='[{"delay":500,"split":"chars","splitdelay":0.05,"speed":1300,"frame":"0","from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['120', '90', '80', '70']"
+                data-lineheight="['130', '120', '100', '90']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['-18', '-28', '-28', '-48']"
+                data-width="['1100','960','768','576']"
+                data-height="['auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              ></h2>
+
+              <!--  -->
+              <p
+                class="tp-caption tp-resizeme layer3"
+                data-frames='[{"delay":1800,"speed":1300,"frame":"0","from":"x:-200px;skX:85px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['18', '18', '18', '18']"
+                data-lineheight="['30', '30', '30', '30']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['107', '80', '80', '77']"
+                data-width="['970','768','768','576']"
+                data-height="['auto', 'auto', 'auto', 'auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 35, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 35, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              ></p>
+
+              <!--  -->
+              <div
+                class="tp-caption tp-resizeme flex-w flex-c-m layer4"
+                data-frames='[{"delay":3000,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.6;sY:0.6;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['218', '180', '180', '190']"
+                data-width="['970','960','768','576']"
+                data-height="['auto']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              >
+                <a href="about-01.html" class="btn-slide flex-c-m">
+                  Xem thêm
+                  <span class="lnr lnr-chevron-right m-l-7"></span>
+                  <span class="lnr lnr-chevron-right"></span>
+                </a>
+              </div>
+            </li>
+
+            <!-- Slide 3 -->
+            <li data-transition="fade">
+              <!--  -->
+              <img
+                src="https://photo-cms-nghenhinvietnam.zadn.vn/w1024/Uploaded/2022/unvjohp/2020_10_30/ipad/maxresdefault_2__lgyn.jpg"
+                alt="IMG-BG"
+                class="rev-slidebg"
+              />
+
+              <!--  -->
+              <div
+                class="tp-caption tp-resizeme layer1"
+                data-frames='[{"delay":1800,"speed":1300,"frame":"0","from":"x:200px;skX:-85px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['35', '35', '30', '30']"
+                data-lineheight="['42', '42', '42', '42']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['-116', '-116', '-116', '-146']"
+                data-width="['970','960','768','576']"
+                data-height="['auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              ></div>
+
+              <!--  -->
+              <h2
+                class="tp-caption tp-resizeme layer2"
+                data-frames='[{"delay":500,"split":"chars","splitdelay":0.05,"speed":1300,"frame":"0","from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['120', '90', '80', '70']"
+                data-lineheight="['130', '120', '100', '90']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['-18', '-28', '-28', '-48']"
+                data-width="['1100','960','768','576']"
+                data-height="['auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              >
+                IPAD PRO M1
+              </h2>
+
+              <!--  -->
+              <p
+                class="tp-caption tp-resizeme layer3"
+                data-frames='[{"delay":1800,"speed":1300,"frame":"0","from":"x:-200px;skX:85px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-visibility="['on', 'on', 'on', 'on']"
+                data-fontsize="['18', '18', '18', '18']"
+                data-lineheight="['30', '30', '30', '30']"
+                data-color="['#fff']"
+                data-textAlign="['center', 'center', 'center', 'center']"
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['107', '80', '80', '77']"
+                data-width="['970','768','768','576']"
+                data-height="['auto', 'auto', 'auto', 'auto']"
+                data-whitespace="['normal']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 35, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 35, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              ></p>
+
+              <!--  -->
+              <div
+                class="tp-caption tp-resizeme flex-w flex-c-m layer4"
+                data-frames='[{"delay":3000,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.6;sY:0.6;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                data-x="['center']"
+                data-y="['center']"
+                data-hoffset="['0', '0', '0', '0']"
+                data-voffset="['218', '180', '180', '190']"
+                data-width="['970','960','768','576']"
+                data-height="['auto']"
+                data-paddingtop="[0, 0, 0, 0]"
+                data-paddingright="[15, 15, 15, 15]"
+                data-paddingbottom="[0, 0, 0, 0]"
+                data-paddingleft="[15, 15, 15, 15]"
+                data-basealign="slide"
+                data-responsive_offset="on"
+              >
+                <a href="about-01.html" class="btn-slide flex-c-m">
+                  Xem thêm
+                  <span class="lnr lnr-chevron-right m-l-7"></span>
+                  <span class="lnr lnr-chevron-right"></span>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product -->
+    <div class="sec-product bg0 p-t-145 p-b-25">
+      <div class="container">
+        <div class="size-a-1 flex-col-c-m p-b-48">
+          <div class="txt-center txt-m-201 cl10 how-pos1-parent m-b-14">
+            WELCOME
+
+            <div class="how-pos1">
+              <img src="images/icons/symbol-02.png" alt="IMG" />
+            </div>
+          </div>
+
+          <h3 class="txt-center txt-l-101 cl3 respon1">
+            Sản phẩm của chúng tôi
+          </h3>
+        </div>
+
+        <div class="p-b-46">
+          <div class="flex-w flex-c-m filter-tope-group" id="categoies2">
+            <button
+              class="txt-m-104 cl9 hov2 trans-04 p-rl-27 p-b-10 how-active1"
+              data-filter="*"
+            >
+              Tất cả</button
+            >`;
+            <!-- <button class="txt-m-104 cl9 hov2 trans-04 p-rl-27 p-b-10 how-active1" data-filter="*">
+						Tất cả
+					</button>
+
+					<button class="txt-m-104 cl9 hov2 trans-04 p-rl-27 p-b-10" data-filter=".dienthoai">
+						Điện thoại
+					</button>
+
+					<button class="txt-m-104 cl9 hov2 trans-04 p-rl-27 p-b-10" data-filter=".laptop">
+						Laptop
+					</button>
+
+					<button class="txt-m-104 cl9 hov2 trans-04 p-rl-27 p-b-10" data-filter=".tablet">
+						Tablet
+					</button>
+
+					<button class="txt-m-104 cl9 hov2 trans-04 p-rl-27 p-b-10" data-filter=".phukien">
+						Phụ kiện
+					</button>
+
+					<button class="txt-m-104 cl9 hov2 trans-04 p-rl-27 p-b-10" data-filter=".smartwatch">
+						Smartwatch
+					</button> -->
+          </div>
+        </div>
+
+        <div class="row isotope-grid" id="products">
+          <!-- <div class="col-sm-6 col-md-4 col-lg-3 p-b-75 isotope-item dienthoai"> -->
+
+          <!-- <div class="block1">
+						<div class="block1-bg wrap-pic-w bo-all-1 bocl12 hov3 trans-04 p-t-10">
+							<img src="https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-5g-128gb-thumb-tim-600x600.jpg" alt="IMG">	
+							
+							<div class="flex-col-c-m p-b-46">
+								<a href="product-single.html" class="txt-m-103 cl3 txt-center hov-cl10 trans-04 js-name-b1 p-t-20">
+									Samsung Galaxy Z Flip4 5G
+								</a>
+
+								<span class="block1-content-more txt-m-104 cl9 p-t-21 trans-04">
+									21.990.000đ
+								</span>
+
+								<div class="block1-wrap-icon flex-c-m flex-w trans-05">
+									<a href="product-single.html" class="block1-icon flex-c-m wrap-pic-max-w">
+										<img src="images/icons/icon-view.png" alt="ICON">
+									</a>
+
+									<a href="#" class="block1-icon flex-c-m wrap-pic-max-w js-addcart-b1">
+										<img src="images/icons/icon-cart.png" alt="ICON">
+									</a>
+
+									<a href="wishlist.html" class="block1-icon flex-c-m wrap-pic-max-w js-addwish-b1">
+										<img class="icon-addwish-b1" src="images/icons/icon-heart.png" alt="ICON">
+										<img class="icon-addedwish-b1" src="images/icons/icon-heart2.png" alt="ICON">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>	 -->
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Testimonials -->
+    <section class="sec-testimonials bg0 p-t-145 p-b-80">
+      <div class="container">
+        <div class="size-a-1 flex-col-c-m p-b-70">
+          <div class="txt-center txt-m-201 cl10 how-pos1-parent m-b-14">
+            ĐÁNH GIÁ
+
+            <div class="how-pos1">
+              <img src="images/icons/symbol-02.png" alt="IMG" />
+            </div>
+          </div>
+
+          <h3 class="txt-center txt-l-101 cl3 respon1">
+            Cảm nhận của Khách Hàng
+          </h3>
+        </div>
+
+        <!-- slide7 -->
+        <div class="wrap-slick7 m-rl--15">
+          <div class="slick7">
+            <!-- - -->
+            <div class="item-slick7 p-rl-15">
+              <div
+                class="flex-w flex-sb-t bo-all-2 bocl18 p-rl-33 p-t-33 p-b-30 hov7-parent p-rl-15-sm"
+              >
+                <div
+                  class="size-a-14 wrap-pic-s bo-3-rad-50per bocl11 of-hidden trans-04 hov7"
+                >
+                  <img
+                    src="https://cdn.tgdd.vn/Products/Images/42/230529/iphone-13-pro-max-xanh-la-thumb-200x200.jpg"
+                    alt="anh-san-pham"
+                  />
+                </div>
+
+                <div class="size-w-7 flex-col-l p-t-10 w-full-sm">
+                  <p class="txt-s-101 cl6 p-b-17">
+                    Tôi mới mua Iphone 13 Pro Max ở cửa hàng. Sản phẩm sử dụng
+                    tốt, mượt, đẹp. Nhân viên tư vấn, chăm sóc khách hàng tốt.
+                    10 điểm!!!
+                  </p>
+
+                  <span class="txt-m-117 cl3 p-b-4"> Sơn Tùng M-TP </span>
+
+                  <span class="txt-s-106 cl10"> Ca Sĩ </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- - -->
+            <div class="item-slick7 p-rl-15">
+              <div
+                class="flex-w flex-sb-t bo-all-2 bocl18 p-rl-33 p-t-33 p-b-30 hov7-parent p-rl-15-sm"
+              >
+                <div
+                  class="size-a-14 wrap-pic-s bo-3-rad-50per bocl11 of-hidden trans-04 hov7"
+                >
+                  <img
+                    src="https://cdn.tgdd.vn/Products/Images/44/231244/macbook-air-m1-2020-silver-200x200.jpg"
+                    alt="AVATAR"
+                  />
+                </div>
+
+                <div class="size-w-7 flex-col-l p-t-10 w-full-sm">
+                  <p class="txt-s-101 cl6 p-b-17">
+                    MaxBook Air M1 này quá đẹp, bạn nhân viên nữ tư vấn xinh
+                    quá, cho hỏi có người yêu chưa vậy?
+                  </p>
+
+                  <span class="txt-m-117 cl3 p-b-4"> Trap Boy </span>
+
+                  <span class="txt-s-106 cl10"> Nhân viên văn phòng </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- - -->
+            <div class="item-slick7 p-rl-15">
+              <div
+                class="flex-w flex-sb-t bo-all-2 bocl18 p-rl-33 p-t-33 p-b-30 hov7-parent p-rl-15-sm"
+              >
+                <div
+                  class="size-a-14 wrap-pic-s bo-3-rad-50per bocl11 of-hidden trans-04 hov7"
+                >
+                  <img
+                    src="https://cdn.tgdd.vn/Products/Images/54/250701/airpods-3-hop-sac-khong-day-0-180x125.jpg"
+                    alt="AVATAR"
+                  />
+                </div>
+
+                <div class="size-w-7 flex-col-l p-t-10 w-full-sm">
+                  <p class="txt-s-101 cl6 p-b-17">
+                    Tai nghe được đấy. Lên luôn bạn ê
+                  </p>
+
+                  <span class="txt-m-117 cl3 p-b-4"> Thánh Bay Lắc </span>
+
+                  <span class="txt-s-106 cl10"> Sinh Viên </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- - -->
+            <div class="item-slick7 p-rl-15">
+              <div
+                class="flex-w flex-sb-t bo-all-2 bocl18 p-rl-33 p-t-33 p-b-30 hov7-parent p-rl-15-sm"
+              >
+                <div
+                  class="size-a-14 wrap-pic-s bo-3-rad-50per bocl11 of-hidden trans-04 hov7"
+                >
+                  <img
+                    src="https://cdn.tgdd.vn/Products/Images/7077/234918/se-40mm-vien-nhom-day-cao-su-xanh-den-thumb-1-200x200.jpg"
+                    alt="AVATAR"
+                  />
+                </div>
+
+                <div class="size-w-7 flex-col-l p-t-10 w-full-sm">
+                  <p class="txt-s-101 cl6 p-b-17">
+                    Bây giờ tôi muốn bán lại cái APPLE WATCH SE này để mua sản
+                    phẩm khác, bên cửa hàng có thu mua lại không vậy?
+                  </p>
+
+                  <span class="txt-m-117 cl3 p-b-4"> Tonny Tèo </span>
+
+                  <span class="txt-s-106 cl10"> Nhân viên SALES </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="wrap-dot-slick7 p-rl-15 p-t-65"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Practice -->
+    <section class="sec-practice bg12 p-t-145 p-b-70">
+      <div class="container">
+        <div class="size-a-1 flex-col-c-m p-b-70">
+          <div class="txt-center txt-m-201 cl10 how-pos1-parent m-b-14">
+            NEW/BEST
+
+            <div class="how-pos1">
+              <img src="images/icons/symbol-02.png" alt="IMG" />
+            </div>
+          </div>
+
+          <h3 class="txt-center txt-l-101 cl3 respon1">Sản Phẩm Nổi Bật</h3>
+        </div>
+
+        <div class="flex-w flex-sb flex-str tab01">
+          <div class="size-w-37 bg0 w-full-md m-b-30 tab01-arrow">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li class="nav-item flex-col-str">
+                <a
+                  class="flex-c-m txt-m-119 cl6 nav-link active"
+                  data-toggle="tab"
+                  href="#tab-01"
+                  role="tab"
+                  >ĐIỆN THOẠI</a
+                >
+              </li>
+
+              <li class="nav-item flex-col-str">
+                <a
+                  class="flex-c-m txt-m-119 cl6 nav-link"
+                  data-toggle="tab"
+                  href="#tab-02"
+                  role="tab"
+                  >LAPTOP</a
+                >
+              </li>
+
+              <li class="nav-item flex-col-str">
+                <a
+                  class="flex-c-m txt-m-119 cl6 nav-link"
+                  data-toggle="tab"
+                  href="#tab-03"
+                  role="tab"
+                  >TABLET</a
+                >
+              </li>
+
+              <li class="nav-item flex-col-str">
+                <a
+                  class="flex-c-m txt-m-119 cl6 nav-link"
+                  data-toggle="tab"
+                  href="#tab-04"
+                  role="tab"
+                  >PHỤ KIỆN</a
+                >
+              </li>
+
+              <li class="nav-item flex-col-str">
+                <a
+                  class="flex-c-m txt-m-119 cl6 nav-link"
+                  data-toggle="tab"
+                  href="#tab-05"
+                  role="tab"
+                  >SMARTWATCH</a
+                >
+              </li>
+
+              <li class="nav-item flex-col-str">
+                <a
+                  class="flex-c-m txt-m-119 cl6 nav-link"
+                  data-toggle="tab"
+                  href="#tab-06"
+                  role="tab"
+                  >PC/MÁY IN</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="size-w-38 bg0 p-rl-75 p-tb-60 p-rl-15-sm w-full-md m-b-30"
+          >
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <!-- - -->
+              <div
+                class="tab-pane fade show active"
+                id="tab-01"
+                role="tabpanel"
+              >
+                <div class="flex-w flex-sb-m">
+                  <div class="size-w-3 wrap-pic-w w-full-lg p-tb-15">
+                    <img
+                      src="https://cdn.tgdd.vn/Products/Images/42/230529/iphone-13-pro-max-xanh-la-thumb-600x600.jpg"
+                      alt="IMG"
+                    />
+                  </div>
+
+                  <div class="size-w-39 w-full-lg p-tb-15">
+                    <span class="txt-m-202 cl10"> IPHONE 13 PRO MAX </span>
+
+                    <h4 class="txt-m-118 cl3 p-t-10 p-b-20">
+                      PRO và Vượt Trội
+                    </h4>
+
+                    <p class="txt-s-112 cl6 p-b-31">
+                      Một cách tuyệt diệu để tương tác vơi Iphone. Một tính năng
+                      an toàn quan trọng được thiết kế để cứu người.
+                      <br />Ba camera 12PM tân tiến. Và màn hình sáng hơn đến
+                      hai lần dưới ánh sáng mặt trời.
+                    </p>
+
+                    <div class="flex-w flex-l-m">
+                      <a
+                        href="#"
+                        class="flex-c-m txt-s-103 cl6 size-a-15 how-btn1 bo-all-1 bocl11 hov-btn1 trans-04"
+                      >
+                        Xem thêm
+                        <span class="lnr lnr-chevron-right m-l-7"></span>
+                        <span class="lnr lnr-chevron-right"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- - -->
+              <div class="tab-pane fade" id="tab-02" role="tabpanel">
+                <div class="flex-w flex-sb-m">
+                  <div class="size-w-3 wrap-pic-w w-full-lg p-tb-15">
+                    <img
+                      src="https://cdn.tgdd.vn/Products/Images/44/231253/macbook-pro-m1-2020-silver-01-org.jpg"
+                      alt="IMG"
+                    />
+                  </div>
+
+                  <div class="size-w-39 w-full-lg p-tb-15">
+                    <span class="txt-m-202 cl10">
+                      Laptop Apple MacBook Pro M1 2020 8GB/256GB (MYDA2SA/A)
+                    </span>
+
+                    <h4 class="txt-m-118 cl3 p-t-10 p-b-20">
+                      Sang trọng và đẳng cấp
+                    </h4>
+
+                    <p class="txt-s-112 cl6 p-b-31">
+                      Macbook Pro M1 2020 sở hữu thiết kế sang trọng kế thừa từ
+                      các thế hệ trước và bên trong là một cấu hình ấn tượng từ
+                      con chip M1 lần đầu tiên xuất hiện trên MacBook Pro, hiệu
+                      năng CPU của máy tăng đến 2.8 lần, hiệu năng GPU tăng 5
+                      lần.
+                      <br />Thiết kế mỏng nhẹ, cao cấp
+                    </p>
+
+                    <div class="flex-w flex-l-m">
+                      <a
+                        href="#"
+                        class="flex-c-m txt-s-103 cl6 size-a-15 how-btn1 bo-all-1 bocl11 hov-btn1 trans-04"
+                      >
+                        Xem thêm
+                        <span class="lnr lnr-chevron-right m-l-7"></span>
+                        <span class="lnr lnr-chevron-right"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- - -->
+              <div class="tab-pane fade" id="tab-03" role="tabpanel">
+                <div class="flex-w flex-sb-m">
+                  <div class="size-w-3 wrap-pic-w w-full-lg p-tb-15">
+                    <img
+                      src="https://cdn.tgdd.vn/Products/Images/522/269328/ipad-pro-m1-11-inch-wifi-2tb-2021-xam-thumb-600x600.jpeg"
+                      alt="IMG"
+                    />
+                  </div>
+
+                  <div class="size-w-39 w-full-lg p-tb-15">
+                    <span class="txt-m-202 cl10">
+                      Máy tính bảng iPad Pro M1 11 inch WiFi Cellular 1TB (2021)
+                    </span>
+
+                    <h4 class="txt-m-118 cl3 p-t-10 p-b-20">
+                      Thời thượng và Đẳng cấp
+                    </h4>
+
+                    <p class="txt-s-112 cl6 p-b-31">
+                      Máy tính bảng iPad Pro M1 11 inch WiFi Cellular 1TB (2021)
+                      thiết kế hình hộp vát cạnh vuông vức, hiện đại với thân
+                      máy bằng kim loại chắc chắn, hoàn thiện tỉ mỉ và sang
+                      trọng, trọng lượng nhẹ, kích cỡ hợp lý thuận tiện sử dụng
+                      và mang theo.
+                      <br />Chinh phục mọi tác vụ với sức mạnh từ chip M1.
+                    </p>
+
+                    <div class="flex-w flex-l-m">
+                      <a
+                        href="#"
+                        class="flex-c-m txt-s-103 cl6 size-a-15 how-btn1 bo-all-1 bocl11 hov-btn1 trans-04"
+                      >
+                        Xem thêm
+                        <span class="lnr lnr-chevron-right m-l-7"></span>
+                        <span class="lnr lnr-chevron-right"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- - -->
+              <div class="tab-pane fade" id="tab-04" role="tabpanel">
+                <div class="flex-w flex-sb-m">
+                  <div class="size-w-3 wrap-pic-w w-full-lg p-tb-15">
+                    <img
+                      src="https://cdn.tgdd.vn/Products/Images/54/250701/airpods-3-hop-sac-khong-day-thumb-600x600.jpeg"
+                      alt="IMG"
+                    />
+                  </div>
+
+                  <div class="size-w-39 w-full-lg p-tb-15">
+                    <span class="txt-m-202 cl10">
+                      Tai nghe Bluetooth AirPods 3 Apple MME73 Trắng
+                    </span>
+
+                    <h4 class="txt-m-118 cl3 p-t-10 p-b-20">
+                      Ông hoàng Earbuds
+                    </h4>
+
+                    <p class="txt-s-112 cl6 p-b-31">
+                      Airpods 3 có thiết kế tương tự như AirPods Pro nhưng không
+                      còn phần eartips, đường viền và thân ngắn hơn cho âm thanh
+                      truyền tải đến tai tối ưu. Bề mặt tai nghe Bluetooth Apple
+                      phủ sắc trắng thời thượng, được làm từ các vật liệu tái
+                      chế với độ bền cao, bảo vệ môi trường sống của con người.
+                      <br />Thiết kế gọn nhẹ, kiểu dáng hướng âm thanh vào tai
+                      bạn
+                    </p>
+
+                    <div class="flex-w flex-l-m">
+                      <a
+                        href="#"
+                        class="flex-c-m txt-s-103 cl6 size-a-15 how-btn1 bo-all-1 bocl11 hov-btn1 trans-04"
+                      >
+                        Xem thêm
+                        <span class="lnr lnr-chevron-right m-l-7"></span>
+                        <span class="lnr lnr-chevron-right"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- - -->
+              <div class="tab-pane fade" id="tab-05" role="tabpanel">
+                <div class="flex-w flex-sb-m">
+                  <div class="size-w-3 wrap-pic-w w-full-lg p-tb-15">
+                    <img
+                      src="https://cdn.tgdd.vn/Products/Images/7077/229059/apple-watch-se-lte-44mm-vien-nhom-day-cao-su-hong-1-2-600x600.jpg"
+                      alt="IMG"
+                    />
+                  </div>
+
+                  <div class="size-w-39 w-full-lg p-tb-15">
+                    <span class="txt-m-202 cl10">
+                      Apple Watch SE 40mm viền nhôm dây silicone
+                    </span>
+
+                    <h4 class="txt-m-118 cl3 p-t-10 p-b-20">
+                      Sang trọng và hiện đại
+                    </h4>
+
+                    <p class="txt-s-112 cl6 p-b-31">
+                      Apple Watch SE 40mm viền nhôm dây silicone hồng có thiết
+                      kế bo tròn 4 góc giúp thao tác vuốt chạm thoải mái hơn.
+                      Mặt kính cường lực Ion-X strengthened glass với kích thước
+                      1.57 inch, hiển thị rõ ràng. Khung viền nhôm chắc chắn
+                      cùng dây đeo silicone có độ đàn hồi cao, êm ái, tạo cảm
+                      giác thoải mái khi đeo.
+                      <br />Thiết kế sang trọng, hiện đại, mang nét đặc trưng
+                      của Apple
+                    </p>
+
+                    <div class="flex-w flex-l-m">
+                      <a
+                        href="#"
+                        class="flex-c-m txt-s-103 cl6 size-a-15 how-btn1 bo-all-1 bocl11 hov-btn1 trans-04"
+                      >
+                        Xem thêm
+                        <span class="lnr lnr-chevron-right m-l-7"></span>
+                        <span class="lnr lnr-chevron-right"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- - -->
+              <div class="tab-pane fade" id="tab-06" role="tabpanel">
+                <div class="flex-w flex-sb-m">
+                  <div class="size-w-3 wrap-pic-w w-full-lg p-tb-15">
+                    <img
+                      src="https://cdn.tgdd.vn/Products/Images/5697/289971/asus-va24ece-238-inch-full-hd-thumb-600x600.jpg"
+                      alt="IMG"
+                    />
+                  </div>
+
+                  <div class="size-w-39 w-full-lg p-tb-15">
+                    <span class="txt-m-202 cl10">
+                      Màn hình Asus TUF Gaming VG249Q1A 23.8 inch Full HD/165
+                      Hz/1ms
+                    </span>
+
+                    <h4 class="txt-m-118 cl3 p-t-10 p-b-20">
+                      Mạnh mẽ và cá tính
+                    </h4>
+
+                    <p class="txt-s-112 cl6 p-b-31">
+                      Màn hình Asus LCD TUF Gaming 23.8 inch Full HD (VG249Q1A)
+                      được thiết kế đầy mạnh mẽ với gam màu đen cá tính, sẵn
+                      sàng sát cánh cùng bạn trong mọi cuộc chiến.
+                      <br />
+                      Màn hình máy tính được thiết kế di động với trọng lượng
+                      5.6 kg cả chân đế cho phép bạn thoải mái di chuyển đến mọi
+                      không gian như phòng làm việc, quầy lễ tân,...
+                    </p>
+
+                    <div class="flex-w flex-l-m">
+                      <a
+                        href="#"
+                        class="flex-c-m txt-s-103 cl6 size-a-15 how-btn1 bo-all-1 bocl11 hov-btn1 trans-04"
+                      >
+                        Xem thêm
+                        <span class="lnr lnr-chevron-right m-l-7"></span>
+                        <span class="lnr lnr-chevron-right"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section class="sec-blog bg0 p-t-145 p-b-50">
+      <div class="container">
+        <div class="size-a-1 flex-col-c-m p-b-70">
+          <div class="txt-center txt-m-201 cl10 how-pos1-parent m-b-14">
+            Tin Tức
+
+            <div class="how-pos1">
+              <img src="images/icons/symbol-02.png" alt="IMG" />
+            </div>
+          </div>
+
+          <h3 class="txt-center txt-l-101 cl3 respon1">Các bài viết mới</h3>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-10 col-md-8 col-lg-6 p-b-30 m-rl-auto">
+            <div class="p-r-30 p-r-0-lg">
+              <div class="flex-w flex-sb-t">
+                <a
+                  href="blog-single.html"
+                  class="wrap-pic-w hov4 w-full pos-relative w-full-sm m-r-0-sm m-b-15"
+                >
+                  <img
+                    src="https://image.thanhnien.vn/w1024/Uploaded/2022/aybunux/2022_05_12/3424-5269.jpg"
+                    alt="BLOG"
+                  />
+
+                  <div
+                    class="ab-t-l size-a-12 bg10 flex-c-m txt-s-111 cl0 p-rl-10"
+                  >
+                    Ngày 25/09/2022
+                  </div>
+                </a>
+
+                <div class="w-full p-t-12 w-full-sm m-b-15">
+                  <h4 class="p-b-10">
+                    <a
+                      href="blog-single.html"
+                      class="txt-m-120 cl3 hov-cl10 trans-04"
+                    >
+                      Bùng nổ với sự ra mắt của Iphone 14
+                    </a>
+                  </h4>
+
+                  <p class="txt-s-101 cl6 p-b-20">
+                    Video ý tưởng phiên bản màu tím của iPhone 14 Pro Max vừa
+                    được đăng tải, đem đến cho người dùng cái nhìn rõ hơn về
+                    thành viên cao cấp nhất của dòng iPhone 14 sắp ra mắt của
+                    Apple.
+                  </p>
+
+                  <div class="how-line2 p-l-40">
+                    <a
+                      href="blog-single.html"
+                      class="txt-s-105 cl9 hov-cl10 trans-04"
+                    >
+                      Xem thêm
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-10 col-md-8 col-lg-6 p-b-30 m-rl-auto">
+            <div class="row">
+              <div class="col-12 m-rl-auto p-b-15">
+                <div class="flex-w flex-sb-t">
+                  <a
+                    href="blog-single.html"
+                    class="wrap-pic-w hov4 size-w-29 pos-relative w-full-sm m-r-0-sm m-b-15"
+                  >
+                    <img
+                      src="https://image.thanhnien.vn/w1024/Uploaded/2022/aybunux/2022_05_12/3424-5269.jpg"
+                      alt="BLOG"
+                    />
+
+                    <div
+                      class="ab-t-l size-a-12 bg10 flex-c-m txt-s-111 cl0 p-rl-10"
+                    >
+                      Ngày 25/09/2022
+                    </div>
+                  </a>
+
+                  <div class="size-w-30 p-t-12 w-full-sm m-b-15">
+                    <h4 class="p-b-10">
+                      <a
+                        href="blog-single.html"
+                        class="txt-m-109 cl3 hov-cl10 trans-04"
+                      >
+                        Bùng nổ với sự ra mắt của Iphone 14
+                      </a>
+                    </h4>
+
+                    <p class="txt-s-101 cl6 p-b-20">
+                      Video ý tưởng phiên bản màu tím của iPhone 14 Pro Max vừa
+                      được đăng tải, đem đến cho người dùng cái nhìn rõ hơn về
+                      thành viên cao cấp nhất của dòng iPhone 14 sắp ra mắt của
+                      Apple.
+                    </p>
+
+                    <div class="how-line2 p-l-40">
+                      <a
+                        href="blog-single.html"
+                        class="txt-s-105 cl9 hov-cl10 trans-04"
+                      >
+                        Xem thêm
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 m-rl-auto p-b-15">
+                <div class="flex-w flex-sb-t">
+                  <a
+                    href="blog-single.html"
+                    class="wrap-pic-w hov4 size-w-29 pos-relative w-full-sm m-r-0-sm m-b-15"
+                  >
+                    <img
+                      src="https://image.thanhnien.vn/w1024/Uploaded/2022/aybunux/2022_05_12/3424-5269.jpg"
+                      alt="BLOG"
+                    />
+
+                    <div
+                      class="ab-t-l size-a-12 bg10 flex-c-m txt-s-111 cl0 p-rl-10"
+                    >
+                      Ngày 25/09/2022
+                    </div>
+                  </a>
+
+                  <div class="size-w-30 p-t-12 w-full-sm m-b-15">
+                    <h4 class="p-b-10">
+                      <a
+                        href="blog-single.html"
+                        class="txt-m-109 cl3 hov-cl10 trans-04"
+                      >
+                        Bùng nổ với sự ra mắt của Iphone 14
+                      </a>
+                    </h4>
+
+                    <p class="txt-s-101 cl6 p-b-20">
+                      Video ý tưởng phiên bản màu tím của iPhone 14 Pro Max vừa
+                      được đăng tải, đem đến cho người dùng cái nhìn rõ hơn về
+                      thành viên cao cấp nhất của dòng iPhone 14 sắp ra mắt của
+                      Apple.
+                    </p>
+
+                    <div class="how-line2 p-l-40">
+                      <a
+                        href="blog-single.html"
+                        class="txt-s-105 cl9 hov-cl10 trans-04"
+                      >
+                        Xem thêm
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg12">
+      <div class="logo-end">
+        <a href="index.html"
+          ><img
+            src="images/logo-smile-phone.png"
+            style="width: 200px; margin-left: 600px; margin-top: 20px"
+            alt="LOGO"
+        /></a>
+      </div>
+      <div
+        class="bg-img2 p-b-74"
+        style="background-image: url(images/icons/symbol-36.png)"
+      >
+        <div class="container">
+          <div class="wrap-footer flex-w p-t-83 p-b-12">
+            <div class="footer-col1 p-b-50">
+              <div class="p-b-36">
+                <span class="txt-m-109 cl10"> Chúng Tôi </span>
+              </div>
+
+              <p class="txt-s-101 cl6 size-w-10 p-b-16">
+                Thông tin khách hàng liên hệ tới cửa hàng
+              </p>
+
+              <ul>
+                <li class="txt-s-101 cl6 flex-t p-b-10">
+                  <span class="size-w-11">
+                    <img src="images/icons/icon-mail.png" alt="ICON-MAIL" />
+                  </span>
+
+                  <span class="size-w-12 p-t-1"> vtmanh106188@gmail.com </span>
+                </li>
+
+                <li class="txt-s-101 cl6 flex-t p-b-10">
+                  <span class="size-w-11">
+                    <img src="images/icons/icon-pin.png" alt="ICON-MAIL" />
+                  </span>
+
+                  <span class="size-w-12 p-t-1">
+                    Hiệp Bình Chánh, Thủ Đức
+                  </span>
+                </li>
+
+                <li class="txt-s-101 cl6 flex-t p-b-10">
+                  <span class="size-w-11">
+                    <img src="images/icons/icon-phone.png" alt="ICON-MAIL" />
+                  </span>
+
+                  <span class="size-w-12 p-t-1"> (+894) 879 516 481 </span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-col2 p-b-50">
+              <div class="p-b-36">
+                <span class="txt-m-109 cl10"> Thông tin </span>
+              </div>
+
+              <ul>
+                <li class="p-b-16">
+                  <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
+                    Cửa hàng
+                  </a>
+                </li>
+
+                <li class="p-b-16">
+                  <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
+                    Sản phẩm bán chạy
+                  </a>
+                </li>
+
+                <li class="p-b-16">
+                  <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
+                    Bài viết
+                  </a>
+                </li>
+
+                <li class="p-b-16">
+                  <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
+                    Sản phẩm mới
+                  </a>
+                </li>
+
+                <li class="p-b-16">
+                  <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
+                    Đánh giá sản phẩm
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-col3 p-b-50">
+              <div class="p-b-36">
+                <span class="txt-m-109 cl10"> Tài khoản khách hàng </span>
+              </div>
+
+              <ul>
+                <li class="p-b-16">
+                  <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
+                    Tài khoản của tôi
+                  </a>
+                </li>
+
+                <li class="p-b-16">
+                  <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
+                    Giảm giá
+                  </a>
+                </li>
+
+                <li class="p-b-16">
+                  <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
+                    Thông tin khách hàng
+                  </a>
+                </li>
+
+                <li class="p-b-16">
+                  <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
+                    Địa chỉ khách hàng
+                  </a>
+                </li>
+
+                <li class="p-b-16">
+                  <a href="#" class="txt-s-101 cl6 hov-cl10 trans-04 p-tb-5">
+                    Lịch sử mua hàng
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-col4 p-b-50">
+              <div class="p-b-36">
+                <span class="txt-m-109 cl10"> Theo dõi </span>
+              </div>
+
+              <p class="txt-s-101 cl6 p-b-33">
+                Hãy để lại địa chỉ email của bạn. Chúng tôi sẽ đưa đến những
+                thông tin mới nhất, những sản phẩm hot nhất đến cho bạn
+              </p>
+
+              <form class="flex-w">
+                <input
+                  class="size-a-11 bg0 plh1 txt-s-111 cl3 p-rl-15"
+                  type="text"
+                  name="email"
+                  placeholder="Email của bạn..."
+                />
+                <button class="flex-c-m size-a-10 bg10 hov-btn2 trans-04">
+                  <img src="images/icons/icon-send.png" alt="SENT" />
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div class="flex-w flex-sb-m bo-t-1 bocl14 p-tb-14">
+            <span class="txt-s-101 cl9 p-tb-10 p-r-29">
+              Vũ Thế Mạnh - Cao Đẳng FPT Polytechnic 2022
+            </span>
+
+            <div class="flex-w flex-m">
+              <a href="#" class="m-r-29 m-tb-10">
+                <img src="images/icons/icon-pay-01.png" alt="ICON-PAY" />
+              </a>
+
+              <a href="#" class="m-r-29 m-tb-10">
+                <img src="images/icons/icon-pay-02.png" alt="ICON-PAY" />
+              </a>
+
+              <a href="#" class="m-r-29 m-tb-10">
+                <img src="images/icons/icon-pay-03.png" alt="ICON-PAY" />
+              </a>
+
+              <a href="#" class="m-r-29 m-tb-10">
+                <img src="images/icons/icon-pay-04.png" alt="ICON-PAY" />
+              </a>
+
+              <a href="#">
+                <img src="images/icons/icon-pay-05.png" alt="ICON-PAY" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top -->
+    <div class="btn-back-to-top bg0-hov" id="myBtn">
+      <span class="symbol-btn-back-to-top">
+        <span class="lnr lnr-chevron-up"></span>
+      </span>
+    </div>
+
+    <!--===============================================================================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendor/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="js/revo-custom.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/daterangepicker/moment.min.js"></script>
+    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/slick/slick.min.js"></script>
+    <script src="js/slick-custom.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/parallax100/parallax100.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/isotope/isotope.pkgd.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/sweetalert/sweetalert.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/countdowntime/moment.min.js"></script>
+    <script src="vendor/countdowntime/moment-timezone.min.js"></script>
+    <script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+    <script src="vendor/countdowntime/jquery.countdown.min.js"></script>
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/waypoint/jquery.waypoints.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/countterup/jquery.counterup.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
+<script src="/dist/ASM/typescript/index.js"></script>
